@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: auto !important; /* Animatsiyasiz scroll */
+}
+
+/* Global dark/light rejim uchun qo'shimcha uslublar */
+html {
+  @apply bg-[#112544] text-white; /* Light rejim uchun */
+}
+
+html.dark {
+  @apply bg-white text-black; /* Dark rejim uchun */
+}
+
+.hide-scrollbar {
+  overflow-x: scroll; /* Scroll hali mavjud bo'ladi */
+  scrollbar-width: none; /* Firefox uchun */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome va Safari uchun */
+}

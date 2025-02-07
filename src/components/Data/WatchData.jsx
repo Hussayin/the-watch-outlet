@@ -15,7 +15,7 @@ export const PopulorWatch = [
     logo: tissotLogo,
     logoWidth: "w-[90px]",
     title: "PR516 CHRONOGRAPH",
-    rafcode: "T-7777777777",
+    rafcode: "T-1494171104100",
     brend: "Tissot",
     price: "520",
     mainImage:

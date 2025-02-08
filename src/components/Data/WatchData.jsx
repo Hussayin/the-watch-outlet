@@ -131,52 +131,32 @@ export const PopulorWatch = [
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Slimline-FC-723WR3S6.webp",
   },
-  // {
-  //   id: "7",
-  //   link: "/rolex",
-  //   logo: rolexLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "Rolex Datejust",
-  //   rafcode: "REF-126234",
-  //   demoPrice: "15.000",
-  //   price: "10.000",
-  //   mainImage:
-  //     "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36silver.webp",
-  // },
-  // {
-  //   id: "8",
-  //   link: "/rolex",
-  //   logo: rolexLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "Rolex Submariner",
-  //   rafcode: "REF-126618LN",
-  //   demoPrice: "42.000",
-  //   price: "40.000",
-  //   mainImage:
-  //     "https://watch-data.netlify.app/watch-rolex/submarinerGold/submarinerBlack.webp",
-  // },
-  // {
-  //   id: "9",
-  //   link: "/west",
-  //   logo: westLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "Sowar Prima Tiffany",
-  //   rafcode: "REF-6868103337",
-  //   demoPrice: "1100",
-  //   price: "1000",
-  //   mainImage: "https://watch-data.netlify.app/west-and-watch/imper2.webp",
-  // },
-  // {
-  //   id: "10",
-  //   link: "/west",
-  //   logo: westLogo,
-  //   logoWidth: "w-[100px]",
-  //   title: "The Classics",
-  //   rafcode: "REF-6828352900",
-  //   demoPrice: "2200",
-  //   price: "2000",
-  //   mainImage: "https://watch-data.netlify.app/west-and-watch/imper11.webp",
-  // },
+  {
+    id: "11",
+    link: "/rolex",
+    logo: rolexLogo,
+    logoWidth: "w-[100px]",
+    title: "Rolex Datejust",
+    brend: "Rolex Datejust",
+    rafcode: "REF-126234",
+    demoPrice: "15.000",
+    price: "10.000",
+    mainImage:
+      "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36black.webp",
+  },
+  {
+    id: "12",
+    link: "/rolex",
+    logo: rolexLogo,
+    logoWidth: "w-[100px]",
+    title: "Rolex Submariner",
+    brend: "Rolex Submariner",
+    rafcode: "REF-126618LN",
+    demoPrice: "42.000",
+    price: "40.000",
+    mainImage:
+      "https://watch-data.netlify.app/watch-rolex/submarinerGold/submarinerBlack.webp",
+  },
 ];
 
 //! menu controller and links
@@ -202,13 +182,13 @@ export const watchBrends = [
       "https://bekhruzwatch-data.netlify.app/Longines-done/Longines-HydroConquest-L3.741.4.56.6.webp",
     title: "Longines",
   },
-  // {
-  //   id: "4",
-  //   link: "/rolex",
-  //   image:
-  //     "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36green.webp",
-  //   title: "Rolex",
-  // },
+  {
+    id: "4",
+    link: "/rolex",
+    image:
+      "https://watch-data.netlify.app/watch-rolex/datejust36/datejust36black.webp",
+    title: "Rolex",
+  },
   {
     id: "5",
     link: "/frederique",

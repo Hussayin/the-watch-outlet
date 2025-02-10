@@ -4,15 +4,17 @@ import { Corusel } from "../compos/Corusel";
 import Search from "../compos/Search";
 import MenuBrends from "../compos/MenuBrends";
 import Populor from "../compos/Populor";
+import MenuAll from "./MenuAll";
 
 const Enter = () => {
   return (
-    <div>
+    <div className="mb-[65px]">
       <Navbar />
       <Search />
       <Corusel />
       <MenuBrends />
       <Populor />
+      <MenuAll />
     </div>
   );
 };

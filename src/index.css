@@ -32,3 +32,8 @@ html.dark {
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome va Safari uchun */
 }
+
+.active {
+  background-color: white;
+  color: black;
+}

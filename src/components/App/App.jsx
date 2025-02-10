@@ -10,6 +10,7 @@ import Frederique from "../watchs/Frederique";
 import FrederiqueDetails from "../watchDetails/FrederiqueDetails";
 import InstallPrompt from "./InstallModal";
 import ScrollManager from "./ScrollManager";
+import AllWatches from "../compos/AllWatches";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Enter />} />
+          <Route path="/AllWatches" element={<AllWatches />} />
           {/* Tissot */}
           <Route path="/tissot" element={<Tissot />} />
           <Route path="/tissot/:id" element={<TissotDetails />} />

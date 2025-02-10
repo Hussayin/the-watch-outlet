@@ -53,8 +53,8 @@ const AllProducts = () => {
   };
 
   return (
-    <div>
-      <div className="flex gap-[13px] overflow-x-scroll border-t-[2px] border-white dark:bg-white bg-[#0f192b] p-[10px] hide-scrollbar ">
+    <div className=" hidden">
+      <div className=" flex gap-[13px] overflow-x-scroll border-t-[2px] border-white dark:bg-white bg-[#0f192b] p-[10px] hide-scrollbar ">
         <button
           onClick={() => setOpenFilter(true)}
           className="px-[15px] py-[5px] rounded-full text-sm font-semibold whitespace-nowrap transition-all bg-blue-500"

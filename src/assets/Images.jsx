@@ -2,7 +2,7 @@ export { default as tissotLogo } from "././tissotLogo.jpg";
 export { default as longinesLogo } from "././longines.jpg";
 export { default as rolexLogo } from "././rolexLogo.jpg";
 export { default as fredriqueLogo } from "././fredrique.svg";
-// export { default as mauricoLogo } from "./maurico.png";
+export { default as mauricoLogo } from "././maurice.png";
 export { default as caisoLogo } from "././caisoLogo.jpg";
 export { default as armandLogo } from "././armandLogo.png";
 // export { default as hamiltonLogo } from "./hamilton.png";

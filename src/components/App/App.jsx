@@ -11,6 +11,8 @@ import FrederiqueDetails from "../watchDetails/FrederiqueDetails";
 import InstallPrompt from "./InstallModal";
 import ScrollManager from "./ScrollManager";
 import AllWatches from "../compos/AllWatches";
+import Maurice from "../watchs/Maurice";
+import MauriceDetails from "../watchDetails/MauriceDetails";
 
 const App = () => {
   return (
@@ -31,6 +33,9 @@ const App = () => {
           {/* frederique */}
           <Route path="/frederique" element={<Frederique />} />
           <Route path="/frederique/:id" element={<FrederiqueDetails />} />
+          {/* Maurice */}
+          <Route path="/maurice" element={<Maurice />} />
+          <Route path="/maurice/:id" element={<MauriceDetails />} />
         </Routes>
       </BrowserRouter>
     </div>

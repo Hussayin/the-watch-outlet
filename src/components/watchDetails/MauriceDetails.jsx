@@ -10,7 +10,7 @@ import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
 
-const LonginesDetails = () => {
+const MauriceDetails = () => {
   const { products } = useContext(DetailContext);
   const { id } = useParams();
   const { sendToTelegram } = useContext(TelegramContext);
@@ -23,18 +23,22 @@ const LonginesDetails = () => {
   };
 
   // Ehtiyot chorasi: `products` va `Tissot` mavjudligini tekshirish
-  const product = products?.Longines?.find(
+  const product = products?.Maurice?.find(
     (watch) => String(watch.id) === String(id)
   );
 
   if (!product) {
-    return <div>Mahsulot topilmadi!</div>;
+    return (
+      <div className=" flex justify-center items-center text-center h-[100%] w-[100%] ">
+        Mahsulot topilmadi!
+      </div>
+    );
   }
 
   return (
     <div>
       <div className="fixed w-[100%] top-0 z-[10000000] dark:bg-white dark:border-black bg-[#0f192b] border-[#cecccc85] border-solid border-b-[1px] p-[15px] px-[20px]">
-        <Link to="/longines">
+        <Link to="/maurice">
           <h1 className="flex items-center gap-[2px] font-bold font-nunito text-[17px]">
             <FaChevronLeft className="text-[25px]  " /> назад
           </h1>
@@ -89,7 +93,7 @@ const LonginesDetails = () => {
             transition={{ ease: "easeOut", duration: 1.5 }}
             src={product.logo}
             alt="logo-brend"
-            className="rounded-lg w-[90px] text-center object-cover"
+            className="rounded-lg w-[90px] bg-white text-center object-cover"
           />
         </div>
 
@@ -334,20 +338,6 @@ const LonginesDetails = () => {
             }}
             className=" text-[20px] flex gap-[13px] items-center "
           >
-            <h1>- Стекло:</h1>
-            <h1>{product.glass}</h1>
-          </motion.div>
-          {/*  */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              ease: "easeOut", // Easing funksiyasi
-              duration: 0.6, // Animatsiya davomiyligi
-              delay: 0.1,
-            }}
-            className=" text-[20px] flex gap-[13px] items-center "
-          >
             <h1>- Диаметр:</h1>
             <h1>{product.diameter}</h1>
           </motion.div>
@@ -370,7 +360,7 @@ const LonginesDetails = () => {
         </motion.h1>
         {/* similar products */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]  p-[5px]">
-          {products?.Longines.filter(
+          {products?.Maurice.filter(
             (item) =>
               item.categori === product.categori && item.id !== product.id
           ).map((watch) => (
@@ -463,4 +453,4 @@ const LonginesDetails = () => {
   );
 };
 
-export default LonginesDetails;
+export default MauriceDetails;

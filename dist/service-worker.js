@@ -1,4 +1,4 @@
-const CACHE_NAME = "my-pwa-cache-v3"; // Har deployda versiyani oshiring (v2, v3, v4...)
+const CACHE_NAME = "pwa-cache-v3"; // Har deployda versiyani oshirishni unutmang
 const urlsToCache = [
   "/",
   "/index.html",
@@ -6,7 +6,7 @@ const urlsToCache = [
   "/assets/index.css",
 ];
 
-// Install event: Keshni yaratish
+// Service Worker o‘rnatish va keshni yaratish
 self.addEventListener("install", (event) => {
   console.log("🛠 Service Worker installing...");
   event.waitUntil(
@@ -17,7 +17,7 @@ self.addEventListener("install", (event) => {
   self.skipWaiting(); // Yangi versiyani darhol ishga tushirish
 });
 
-// Activate event: Eski keshlarni o‘chirish
+// Service Worker faollashganda eski keshlarni o‘chirish
 self.addEventListener("activate", (event) => {
   console.log("🚀 Service Worker activating...");
   event.waitUntil(
@@ -32,41 +32,40 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
-  self.clients.claim(); // Barcha ochiq mijozlarga yangi versiyani o‘tkazish
+  self.clients.claim(); // Yangi versiyani hamma foydalanuvchilarga majburan yuklash
 });
 
-// Fetch event: Keshdan yoki tarmoqdan ma'lumot olish
+// Tarmoqdan yoki keshdan ma’lumot olish
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return; // Faqat GET so‘rovlarini keshlash
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        console.log(`📦 Keshdan olinmoqda: ${event.request.url}`);
-        return cachedResponse; // Agar keshda bo‘lsa, shu faylni qaytarish
-      }
+    fetch(event.request)
+      .then((response) => {
+        if (!response || response.status !== 200 || response.type !== "basic") {
+          return response; // Xatolik bo‘lsa yoki server javobi noto‘g‘ri bo‘lsa, shunchaki qaytarish
+        }
 
-      return fetch(event.request)
-        .then((response) => {
-          if (
-            !response ||
-            response.status !== 200 ||
-            response.type !== "basic"
-          ) {
-            return response; // Xatolik yoki tarmoq muammosi bo‘lsa, shunchaki qaytarish
-          }
-
-          // Keshga yangi ma’lumot qo‘shish
-          const responseToCache = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-
-          return response;
-        })
-        .catch((error) => {
-          console.error(`❌ Fetch error: ${error}`);
+        // Javobni keshga qo‘shish
+        const responseToCache = response.clone();
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, responseToCache);
         });
-    })
+
+        return response;
+      })
+      .catch(() => {
+        // Tarmoqda muammo bo‘lsa, keshdan olish
+        return caches.match(event.request).then((cachedResponse) => {
+          return cachedResponse || caches.match("/index.html"); // Agar yo‘q bo‘lsa, asosiy sahifani qaytarish
+        });
+      })
   );
+});
+
+// Yangi versiyani darhol ishga tushirish
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });

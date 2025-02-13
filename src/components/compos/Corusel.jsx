@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
 const imgs = [
-  "https://frederiqueconstant.com/wp-content/uploads/images/vale.jpg",
-  "http://tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Library-Sites-Tissot-SharedLibrary/default/dw3b65a2e0/1-HOMEPAGE/1-SQUARE-IMAGE-ASSET/DEKSTOP/Tis-Digital-VD-HP-Watches-For-Him-Desktop.jpg",
+  "https://tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Library-Sites-Tissot-SharedLibrary/default/dw3b65a2e0/1-HOMEPAGE/1-SQUARE-IMAGE-ASSET/DEKSTOP/Tis-Digital-VD-HP-Watches-For-Him-Desktop.jpg",
   "https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1200/v1711724033/rolexcom/collection/family-pages/classic-watches/datejust/family-page/2024/classic-watches-datejust-iconic-technical-innovations-M126234-0017_2310jva_001-portrait",
   "https://cms.longines.com/uploads/media/homepage-slider-desktop/00/2590-Home%20page%20slider%20master%20collection%20desktop%20.png?v=1-0&w=1200",
   "https://www.tissotwatches.com/on/demandware.static/-/Library-Sites-Tissot-SharedLibrary/default/dw9cea5200/3-STANDALONE-PAGES/1-BRAND-PAGES/Ambassadors/KnowHow_accessorization_1280x1080.jpeg",

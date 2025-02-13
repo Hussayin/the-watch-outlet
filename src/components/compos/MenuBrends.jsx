@@ -9,7 +9,7 @@ const MenuBrends = () => {
       slidesPerView={3.7}
       //   onSlideChange={() => console.log("Slide Change")}
       //   onSwiper={(swiper) => console.log(swiper)}
-      className=" md:hidden block  mx-[5px] font-kanit dark:bg-white bg-[#0e1629] border-[#1c2c4d] border-[2px]  mt-[10px] rounded-2xl px-[3px] py-[10px] "
+      className=" md:hidden block pb-[20px]  mx-[5px] font-kanit dark:bg-white bg-[#0e1629] border-[#1c2c4d] border-[2px]  mt-[10px] rounded-2xl px-[3px] py-[10px] "
     >
       {watchBrends.map((brend) => {
         return (

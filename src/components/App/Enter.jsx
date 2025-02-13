@@ -40,8 +40,8 @@ const Enter = () => {
         {/* Sayt URL */}
         <meta property="og:url" content="https://www.thewatchoutlet.uz/" />
 
-        {/* Saytning rasmiy tili rus tilida */}
-        <meta httpEquiv="Content-Language" content="ru" />
+        {/* Saytning rasmiy tili rus tilida
+        <meta httpEquiv="Content-Language" content="ru" /> */}
 
         {/* Open Graph tasviri */}
         <meta

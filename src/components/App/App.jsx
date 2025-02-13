@@ -14,7 +14,7 @@ import AllWatches from "../compos/AllWatches";
 import Maurice from "../watchs/Maurice";
 import MauriceDetails from "../watchDetails/MauriceDetails";
 import Send from "../itSkupka/Send";
-import Skupka from "../itSkupka/skupka";
+import Skupka from "../itSkupka/Olish";
 
 const App = () => {
   return (

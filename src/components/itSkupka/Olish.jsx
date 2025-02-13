@@ -13,19 +13,16 @@ const Skupka = () => {
       <Helmet>
         {/* Sahifa sarlavhasi */}
         <title>Скупка часов в Ташкенте | Soat sotib olish xizmati</title>
-
         {/* Meta tavsif (Description) */}
         <meta
           name="description"
           content="Скупка часов в Ташкенте. Мы покупаем брендовые часы по выгодным ценам. Оценка и продажа часов в Узбекистане. Soat sotib olish xizmati - biz brend soatlarni yuqori narxda xarid qilamiz."
         />
-
         {/* Kalit so‘zlar (Keywords) */}
         <meta
           name="keywords"
           content="скупка часов, скупка часов Ташкент, продажа часов, купить часы, брендовые часы, soat sotib olish, soatlar, Toshkentda soat sotish"
         />
-
         {/* Open Graph (Facebook, Telegram, Instagram) */}
         <meta
           property="og:title"
@@ -44,7 +41,6 @@ const Skupka = () => {
           property="og:image"
           content="https://www.thewatchoutlet.uz/logo-img-mainn.png"
         />
-
         {/* Twitter meta ma’lumotlari */}
         <meta
           name="twitter:title"
@@ -59,7 +55,6 @@ const Skupka = () => {
           content="https://www.thewatchoutlet.uz/logo-img-mainn.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-
         {/* Hreflang teglari (Google uchun tilda sahifalarni belgilash) */}
         <link
           rel="alternate"
@@ -76,7 +71,6 @@ const Skupka = () => {
           href="https://www.thewatchoutlet.uz/skupka"
           hreflang="x-default"
         />
-
         {/* Schema.org JSON-LD ma’lumotlar */}
         <script type="application/ld+json">
           {JSON.stringify({

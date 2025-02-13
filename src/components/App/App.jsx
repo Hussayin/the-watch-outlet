@@ -13,8 +13,8 @@ import ScrollManager from "./ScrollManager";
 import AllWatches from "../compos/AllWatches";
 import Maurice from "../watchs/Maurice";
 import MauriceDetails from "../watchDetails/MauriceDetails";
-import Skupka from "../itSkupka/skupka";
 import Send from "../itSkupka/Send";
+import Skupka from "../itSkupka/skupka";
 
 const App = () => {
   return (

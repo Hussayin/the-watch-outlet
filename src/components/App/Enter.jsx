@@ -38,7 +38,7 @@ const Enter = () => {
         />
 
         {/* Sayt URL */}
-        <meta property="og:url" content="https://thewatchoutlet.uz/" />
+        <meta property="og:url" content="https://www.thewatchoutlet.uz/" />
 
         {/* Saytning rasmiy tili rus tilida */}
         <meta httpEquiv="Content-Language" content="ru" />
@@ -46,7 +46,7 @@ const Enter = () => {
         {/* Open Graph tasviri */}
         <meta
           property="og:image"
-          content="https://thewatchoutlet.uz/logo-img-mainn.png"
+          content="https://www.thewatchoutlet.uz/logo-img-mainn.png"
         />
 
         {/* Qidiruv tizimlari uchun meta */}
@@ -57,10 +57,10 @@ const Enter = () => {
             "@context": "https://schema.org",
             "@type": "Service",
             name: "The Watch Outlet - Oригинальные часы - Soatlar do'koni",
-            url: "https://thewatchoutlet.uz/", // Saytning sahifasiga havola
+            url: "https://www.thewatchoutlet.uz/", // Saytning sahifasiga havola
             description:
               "Покупаем брендовые часы по выгодным ценам. Оценка и покупка Tissot, Casio, Seiko, Longines, Frederique Constant и других брендов в Ташкенте.",
-            image: "https://thewatchoutlet.uz/logo-img-mainn.png", // Saytning rasmiy logosi
+            image: "https://www.thewatchoutlet.uz/logo-img-mainn.png", // Saytning rasmiy logosi
             areaServed: {
               "@type": "AdministrativeArea",
               name: "Tashkent, Uzbekistan",

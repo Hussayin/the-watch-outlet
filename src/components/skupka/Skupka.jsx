@@ -36,10 +36,13 @@ const Skupka = () => {
           content="Скупка брендовых часов по выгодным ценам в Ташкенте. Soat sotib olish xizmati O‘zbekistonda."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://thewatchoutlet.uz/skupka" />
+        <meta
+          property="og:url"
+          content="https://www.thewatchoutlet.uz/skupka"
+        />
         <meta
           property="og:image"
-          content="https://thewatchoutlet.uz/logo-img-mainn.png"
+          content="https://www.thewatchoutlet.uz/logo-img-mainn.png"
         />
 
         {/* Twitter meta ma’lumotlari */}
@@ -53,24 +56,24 @@ const Skupka = () => {
         />
         <meta
           name="twitter:image"
-          content="https://thewatchoutlet.uz/logo-img-mainn.png"
+          content="https://www.thewatchoutlet.uz/logo-img-mainn.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* Hreflang teglari (Google uchun tilda sahifalarni belgilash) */}
         <link
           rel="alternate"
-          href="https://thewatchoutlet.uz/skupka"
+          href="https://www.thewatchoutlet.uz/skupka"
           hreflang="ru"
         />
         <link
           rel="alternate"
-          href="https://thewatchoutlet.uz/skupka"
+          href="https://www.thewatchoutlet.uz/skupka"
           hreflang="uz"
         />
         <link
           rel="alternate"
-          href="https://thewatchoutlet.uz/skupka"
+          href="https://www.thewatchoutlet.uz/skupka"
           hreflang="x-default"
         />
 
@@ -80,7 +83,7 @@ const Skupka = () => {
             "@context": "https://schema.org",
             "@type": "Service",
             name: "Скупка часов в Ташкенте",
-            url: "https://thewatchoutlet.uz/skupka",
+            url: "https://www.thewatchoutlet.uz/skupka",
             description:
               "Мы покупаем брендовые часы по выгодным ценам. Оценка и продажа часов в Узбекистане.",
             image: "https://thewatchoutlet.uz/logo-img-mainn.png",

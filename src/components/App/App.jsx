@@ -13,17 +13,23 @@ import ScrollManager from "./ScrollManager";
 import AllWatches from "../compos/AllWatches";
 import Maurice from "../watchs/Maurice";
 import MauriceDetails from "../watchDetails/MauriceDetails";
+import Skupka from "../skupka/skupka";
+import Send from "../skupka/Send";
 
 const App = () => {
   return (
     <div className="app">
       <BrowserRouter>
+        {/* <HelmetProvider> */}
         <ScrollManager />
         <InstallPrompt />
         {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Enter />} />
           <Route path="/AllWatches" element={<AllWatches />} />
+          {/* skupka */}
+          <Route path="/skupka" element={<Skupka />} />
+          <Route path="/send" element={<Send />} />
           {/* Tissot */}
           <Route path="/tissot" element={<Tissot />} />
           <Route path="/tissot/:id" element={<TissotDetails />} />
@@ -37,6 +43,7 @@ const App = () => {
           <Route path="/maurice" element={<Maurice />} />
           <Route path="/maurice/:id" element={<MauriceDetails />} />
         </Routes>
+        {/* </HelmetProvider> */}
       </BrowserRouter>
     </div>
   );

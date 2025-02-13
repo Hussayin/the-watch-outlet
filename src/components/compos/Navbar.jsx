@@ -13,6 +13,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MdMiscellaneousServices } from "react-icons/md";
+import { MdSell } from "react-icons/md";
 
 const Navbar = () => {
   const { toggleDarkMode, darkMode } = useTheme();
@@ -99,11 +100,11 @@ const Navbar = () => {
                 className=" w-[100%]"
               >
                 <Link
-                  // to="/servise"
+                  to="/skupka"
                   className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
                 >
-                  Servise
-                  <MdMiscellaneousServices className=" absolute left-[15px] text-[30px]  " />
+                  Скупка часов
+                  <MdSell className=" absolute left-[15px] text-[30px]  " />
                 </Link>
               </motion.div>
 

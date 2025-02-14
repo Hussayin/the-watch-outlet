@@ -14,6 +14,7 @@ import { FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { MdSell } from "react-icons/md";
+import { FaMapLocationDot } from "react-icons/fa6";
 
 const Navbar = () => {
   const { toggleDarkMode, darkMode } = useTheme();
@@ -97,6 +98,7 @@ const Navbar = () => {
                   duration: 1, // Animatsiya davomiyligi
                   delay: 0.1,
                 }}
+                target="_blank"
                 className=" w-[100%]"
               >
                 <Link
@@ -116,6 +118,23 @@ const Navbar = () => {
                   duration: 1, // Animatsiya davomiyligi
                   delay: 0.2,
                 }}
+                href="https://maps.app.goo.gl/fqPkLFAJHpWpFBi59"
+                target="_blank"
+                className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
+              >
+                Location
+                <FaMapLocationDot className=" absolute left-[15px] text-[30px]  " />
+              </motion.a>
+
+              <motion.a
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{
+                  ease: "easeOut", // Easing funksiyasi
+                  duration: 1, // Animatsiya davomiyligi
+                  delay: 0.2,
+                }}
+                target="_blank"
                 href="https://www.instagram.com/the_watch_outlet_uz"
                 className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
               >
@@ -131,6 +150,7 @@ const Navbar = () => {
                   duration: 1, // Animatsiya davomiyligi
                   delay: 0.3,
                 }}
+                target="_blank"
                 href="https://www.instagram.com/bekhruz_watch"
                 className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
               >
@@ -146,6 +166,7 @@ const Navbar = () => {
                   duration: 1, // Animatsiya davomiyligi
                   delay: 0.4,
                 }}
+                target="_blank"
                 href="https://t.me/TheWatchOutlet"
                 className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
               >
@@ -161,6 +182,7 @@ const Navbar = () => {
                   duration: 1, // Animatsiya davomiyligi
                   delay: 0.5,
                 }}
+                target="_blank"
                 href="https://t.me/Bekhruz777"
                 className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
               >
@@ -174,106 +196,31 @@ const Navbar = () => {
                 transition={{
                   ease: "easeOut", // Easing funksiyasi
                   duration: 1, // Animatsiya davomiyligi
+                  delay: 0.5,
+                }}
+                target="_blank"
+                href="https://t.me/the_watch_outlet_bot"
+                className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
+              >
+                Telegram Mini app
+                <BsTelegram className=" absolute left-[15px] text-[30px]  " />
+              </motion.a>
+
+              <motion.a
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{
+                  ease: "easeOut", // Easing funksiyasi
+                  duration: 1, // Animatsiya davomiyligi
                   delay: 0.6,
                 }}
+                target="_blank"
                 href="tel:+998977122206"
                 className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
               >
                 +998 97 712 22 06
                 <TbPhoneCall className=" absolute left-[15px] text-[30px]  " />
               </motion.a>
-
-              {/* <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  ease: "easeOut", // Easing funksiyasi
-                  duration: 1, // Animatsiya davomiyligi
-                  delay: 0.1,
-                }}
-                className=" border-white dark:border-black border-2 p-[20px] rounded-[10px] "
-              >
-                <img
-                  src="https://khusko1.netlify.app/mypic.jpg"
-                  className="w-[350px] h-[330px] object-cover rounded-[10px] "
-                  alt=""
-                />
-                <h1 className=" leading-5 opacity-75 mt-[10px] font-nunito">
-                  Web Developer
-                </h1>
-                <h1 className=" leading-6 font-nunito text-[22px]">
-                  Husan Bahramov
-                </h1>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  ease: "easeOut", // Easing funksiyasi
-                  duration: 1, // Animatsiya davomiyligi
-                  delay: 0.1,
-                }}
-                className=" border-white dark:border-black border-2 p-[20px] rounded-[10px] "
-              >
-                <img
-                  src="https://khusko1.netlify.app/mypic.jpg"
-                  className="w-[350px] h-[330px] object-cover rounded-[10px] "
-                  alt=""
-                />
-                <h1 className=" leading-5 opacity-75 mt-[10px] font-nunito">
-                  Web Developer
-                </h1>
-                <h1 className=" leading-6 font-nunito text-[22px]">
-                  Husan Bahramov
-                </h1>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  ease: "easeOut", // Easing funksiyasi
-                  duration: 1, // Animatsiya davomiyligi
-                  delay: 0.1,
-                }}
-                className=" border-white dark:border-black border-2 p-[20px] rounded-[10px] "
-              >
-                <img
-                  src="https://khusko1.netlify.app/mypic.jpg"
-                  className="w-[350px] h-[330px] object-cover rounded-[10px] "
-                  alt=""
-                />
-                <h1 className=" leading-5 opacity-75 mt-[10px] font-nunito">
-                  Web Developer
-                </h1>
-                <h1 className=" leading-6 font-nunito text-[22px]">
-                  Husan Bahramov
-                </h1>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  ease: "easeOut", // Easing funksiyasi
-                  duration: 1, // Animatsiya davomiyligi
-                  delay: 0.1,
-                }}
-                className=" border-white dark:border-black border-2 p-[20px] rounded-[10px] "
-              >
-                <img
-                  src="https://khusko1.netlify.app/mypic.jpg"
-                  className="w-[350px] h-[330px] object-cover rounded-[10px] "
-                  alt=""
-                />
-                <h1 className=" leading-5 opacity-75 mt-[10px] font-nunito">
-                  Web Developer
-                </h1>
-                <h1 className=" leading-6 font-nunito text-[22px]">
-                  Husan Bahramov
-                </h1>
-              </motion.div> */}
             </div>
           </div>
         )}

@@ -108,7 +108,7 @@ const Skupka = () => {
           duration: 0.5, // Animatsiya davomiyligi
           delay: 0.1,
         }}
-        className=" fixed gap-[20px] pb-[20px] px-[20px] py-[10px] dark:bg-white bg-[#0f192b]  z-[10000000000] bottom-[-13px] w-[100%] flex justify-between items-center border-t-[3px] rounded-t-[20px] border-[#9ca2ad] p-[5px] "
+        className=" fixed gap-[20px] pb-[27px] px-[30px] py-[15px] dark:bg-white bg-[#0f192b]  z-[10000000000] bottom-[-13px] w-[100%] flex justify-between items-center border-t-[3px] rounded-t-[20px] border-[#9ca2ad] p-[5px] "
       >
         {/* buttons */}
         <a
@@ -220,6 +220,22 @@ const Skupka = () => {
         >
           Location
           <FaMapLocationDot className=" absolute left-[15px] text-[25px]  " />
+        </motion.a>
+
+        <motion.a
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            ease: "easeOut", // Easing funksiyasi
+            duration: 1, // Animatsiya davomiyligi
+            delay: 0.6,
+          }}
+          target="_blank"
+          href="https://t.me/the_watch_outlet_bot"
+          className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[5px] rounded-[15px] text-center font-nunito text-[18px] border-white w-[100%] "
+        >
+          Telegram Mini app
+          <BsTelegram className=" absolute left-[15px] text-[25px]  " />
         </motion.a>
       </div>
       {/* Our watches */}

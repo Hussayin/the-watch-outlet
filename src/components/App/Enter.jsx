@@ -15,6 +15,12 @@ const Enter = () => {
         {/* Saytning sarlavhasi */}
         <title>The Watch Outlet - Oригинальные часы | Soatlar do'koni</title>
 
+        {/* google metta tags */}
+        {/* <meta
+          name="google-site-verification"
+          content="bUtMdHYEudBsB_KFa95L6U5ZKZW3UcV4CPGfRFQIw0Q"
+        /> */}
+
         {/* Ruscha tavsif */}
         <meta
           name="description"

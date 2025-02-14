@@ -454,7 +454,7 @@ const TissotDetails = () => {
                     }}
                   >
                     <h1 className="text-[19px] leading-6 uppercase font-bold font-nunito ">
-                      {watch.title}
+                      {watch.brend}
                     </h1>
                     <h1 className=" text-[12px]">{watch.rafcode}</h1>
                   </motion.div>

@@ -12,7 +12,7 @@ const Skupka = () => {
     <div className="mb-[90px]">
       <Helmet>
         {/* Sahifa sarlavhasi */}
-        <title>Скупка часов в Ташкенте | Soat sotib olish xizmati</title>
+        <title>Скупка часов | Soat sotib olish xizmati</title>
         {/* Meta tavsif (Description) */}
         <meta
           name="description"

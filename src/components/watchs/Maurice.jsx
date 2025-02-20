@@ -6,7 +6,14 @@ import { motion } from "framer-motion";
 import { ProductContext } from "../context/ProductContext";
 import { TelegramContext } from "../context/TelegramContext";
 
-const categories = ["All", "Aikon", "Pontos", "Lady", "Eliros"];
+const categories = [
+  "All",
+  "Aikon",
+  "Pontos",
+  "Lady",
+  "Eliros",
+  "Les-Classiques",
+];
 
 const Maurice = () => {
   const { sendToTelegram } = useContext(TelegramContext);

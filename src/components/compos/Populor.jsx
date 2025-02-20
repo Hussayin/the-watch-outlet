@@ -7,7 +7,7 @@ import { PopulorWatch } from "../Data/WatchData";
 
 const Populor = () => {
   return (
-    <div className=" mt-[25px] w-[97%] m-auto ">
+    <div className=" mt-[25px] w-[97%] m-auto">
       <h1 className=" font-nunito md:text-[35px] text-[25px] dark:text-black font-bold text-white">
         TOP WATCHES
       </h1>

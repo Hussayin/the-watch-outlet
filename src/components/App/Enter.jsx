@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet"; // Helmetni import qilish
 
 const Enter = () => {
   return (
-    <div className="mb-[75px]">
+    <div className="mb-[85px]">
       {/* SEO uchun Helmet */}
       <Helmet>
         {/* Saytning sarlavhasi */}

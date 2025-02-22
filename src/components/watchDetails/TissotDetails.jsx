@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
+import { useBasket } from "../context/BasketContext";
 
 const TissotDetails = () => {
   const { products } = useContext(DetailContext);
@@ -40,42 +41,6 @@ const TissotDetails = () => {
           </h1>
         </Link>
       </div>
-      {/* modol to buy
-      <div className=" fixed w-[100%] h-[100vh] hidden bg-[#000000c8]  z-[100000000000] ">
-        <div>
-          <motion.a
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              ease: "easeOut", // Easing funksiyasi
-              duration: 1, // Animatsiya davomiyligi
-              delay: 0.4,
-            }}
-            href="https://t.me/TheWatchOutlet"
-            className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
-          >
-            Telegram
-            <BsTelegram className=" absolute left-[15px] text-[30px]  " />
-          </motion.a>
-
-          <div>
-            <motion.a
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{
-                ease: "easeOut", // Easing funksiyasi
-                duration: 1, // Animatsiya davomiyligi
-                delay: 0.4,
-              }}
-              href="https://t.me/TheWatchOutlet"
-              className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
-            >
-              Telegram
-              <BsTelegram className=" absolute left-[15px] text-[30px]  " />
-            </motion.a>
-          </div>
-        </div>
-      </div> */}
       {/*//* button buy */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -176,9 +141,6 @@ const TissotDetails = () => {
           className="flex justify-between items-center"
         >
           <div>
-            {/* <h1 className="line-through opacity-55 leading-5 text-[20px]">
-              {product.demoPrice}$
-            </h1> */}
             <h1 className="font-nunito text-[35px]">{product.price}$</h1>
           </div>
           <h1 className="text-[15px]">Ref: {product.rafcode}</h1>
@@ -289,21 +251,6 @@ const TissotDetails = () => {
             <h1>- Ремешок:</h1>
             <h1>{product.bracelet}</h1>
           </motion.div>
-          {/*  */}
-          {/* <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              ease: "easeOut", // Easing funksiyasi
-              duration: 0.6, // Animatsiya davomiyligi
-              delay: 0.1,
-            }}
-            className=" text-[20px] flex gap-[13px] items-center "
-          >
-            <h1>- Год выпуска:</h1>
-            <h1>{product.year}</h1>
-          </motion.div> */}
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}

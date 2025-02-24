@@ -12,7 +12,7 @@ const Send = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const botToken = "7504815356:AAHhHFckY5yGDsB2AxKjMtZ6aIwczd55WO0"; // Bot tokenni shu joyga yoz
+  const botToken = "7504815356:AAFgOfrQsr6TDqydE9z19VJ3uMXR-5Dkdrg"; // Bot tokenni shu joyga yoz
   const chatId = "@OurUsersWatch"; // Telegram chat yoki kanal ID sini yoz
 
   const handleImageChange = (e) => {

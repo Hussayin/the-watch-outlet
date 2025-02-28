@@ -80,7 +80,7 @@ const Send = () => {
           <FaChevronLeft className="text-[27px]" /> назад
         </h1>
       </Link>
-      <div className="mt-[30px] px-[20px] ">
+      <div className="mt-[30px] px-[20px] p-[30px] ">
         <h1 className="text-center text-[20px] leading-5 mb-[20px] ">
           Запрос отправьте, и мы обязательно с вами свяжемся
         </h1>

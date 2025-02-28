@@ -17,3 +17,8 @@ export { default as westLogo } from "././west.png";
 // export { default as seikoLogo } from "./seikoLogo.png";
 // export { default as citizen } from "./citizenLogo.png";
 // export { default as ingersoll } from "./ingersollLogo";
+// 8  march
+
+export { default as march1 } from "././forWomen1.webp";
+export { default as march2 } from "././forWomen2.webp";
+export { default as march3 } from "././forWomen3.webp";

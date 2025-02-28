@@ -5,6 +5,9 @@ import {
   fredriqueLogo,
   mauricoLogo,
   rolexLogo,
+  march1,
+  march2,
+  march3,
 } from "../../assets/Images";
 
 //! data for populor products
@@ -209,6 +212,24 @@ export const PopulorWatch = [
 
 //! menu controller and links
 export const watchBrends = [
+  {
+    id: "6",
+    link: "/tissot",
+    image: march1,
+    title: "Женский",
+  },
+  {
+    id: "7",
+    link: "/tissot",
+    image: march2,
+    title: "Женский",
+  },
+  {
+    id: "8",
+    link: "/tissot",
+    image: march3,
+    title: "Женский",
+  },
   {
     id: "1",
     link: "/tissot",

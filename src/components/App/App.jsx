@@ -17,6 +17,8 @@ import Send from "../itSkupka/Send";
 import Skupka from "../itSkupka/Olish";
 import Rolex from "../watchs/Rolex";
 import RolexDetails from "../watchDetails/RolexDetails";
+import Womens from "../watchs/Womens";
+import WomensDetails from "../watchDetails/WomenDetails";
 
 const App = () => {
   return (
@@ -47,6 +49,9 @@ const App = () => {
           {/* Rolex */}
           <Route path="/rolex" element={<Rolex />} />
           <Route path="/rolex/:id" element={<RolexDetails />} />
+          {/* Womens */}
+          <Route path="/womens" element={<Womens />} />
+          <Route path="/womens/:id" element={<WomensDetails />} />
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>

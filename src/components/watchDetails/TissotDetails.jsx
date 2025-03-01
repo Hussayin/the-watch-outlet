@@ -9,9 +9,12 @@ import { useNavigate } from "react-router-dom";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
-import { useBasket } from "../context/BasketContext";
+import { BasketContext } from "../context/BasketContext";
 
 const TissotDetails = () => {
+  // basket
+  const { addToCart } = useContext(BasketContext);
+
   const { products } = useContext(DetailContext);
   const { id } = useParams();
   const { sendToTelegram } = useContext(TelegramContext);
@@ -83,7 +86,10 @@ const TissotDetails = () => {
       {/* Product details */}
       <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
-        <div className="flex gap-[5px] items-center">
+        <div
+          onClick={() => addToCart(product, id)}
+          className="flex gap-[5px] items-center"
+        >
           <motion.img
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

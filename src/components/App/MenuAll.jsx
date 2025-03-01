@@ -30,7 +30,10 @@ const MenuAll = () => {
         <h1>Все часы</h1>
       </NavLink>
       {/* basket */}
-      <NavLink className="border-[1px] border-white text-[23px] rounded-[7px] px-[15px] py-[7px]">
+      <NavLink
+        to="/basket"
+        className="border-[1px] border-white text-[23px] rounded-[7px] px-[15px] py-[7px]"
+      >
         <h1>
           <FaShoppingBasket />
         </h1>

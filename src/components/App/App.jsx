@@ -19,6 +19,7 @@ import Rolex from "../watchs/Rolex";
 import RolexDetails from "../watchDetails/RolexDetails";
 import Womens from "../watchs/Womens";
 import WomensDetails from "../watchDetails/WomenDetails";
+import Basket from "./Basket";
 
 const App = () => {
   return (
@@ -31,6 +32,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Enter />} />
           <Route path="/AllWatches" element={<AllWatches />} />
+          {/* basket */}
+          <Route path="/basket" element={<Basket />} />
           {/* skupka */}
           <Route path="/skupka" element={<Skupka />} />
           <Route path="/send" element={<Send />} />

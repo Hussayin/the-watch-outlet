@@ -1511,7 +1511,7 @@ export const AllWatchs = {
   Tissot: [
     {
       id: 1.1,
-      link: "1.1",
+      link: "/tissot/1.1",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Prc-516",
@@ -1667,7 +1667,7 @@ export const AllWatchs = {
     },
     {
       id: 1.7,
-      link: "1.7",
+      link: "/tissot/1.7",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",

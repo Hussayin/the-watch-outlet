@@ -1,34 +1,41 @@
-// Basket.jsx
-import { useBasket } from "../context/BasketContext";
+import React, { useContext } from "react";
+import { FaChevronLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import MenuAll from "./MenuAll";
+import { BasketContext } from "../context/BasketContext";
 
 const Basket = () => {
-  const { basket, dispatch } = useBasket();
+  const { cart } = useContext(BasketContext);
 
   return (
     <div>
-      <h2>Savat</h2>
-      {basket.length === 0 ? (
-        <p>Savat bo'sh</p>
-      ) : (
-        basket.map((item) => (
-          <div key={item.id}>
-            <h3>{item.title}</h3>
-            <p>{item.price} USD</p>
-            <button
-              onClick={() =>
-                dispatch({ type: "REMOVE_FROM_BASKET", payload: item })
-              }
+      {/* back */}
+      <div className="fixed w-[100%] top-0 z-[10000000] dark:bg-white dark:border-black bg-[#0f192b] border-[#cecccc85] border-solid border-b-[1px] p-[15px] px-[20px]">
+        <Link to="/">
+          <h1 className="flex items-center gap-[2px] font-bold font-nunito text-[17px]">
+            <FaChevronLeft className="text-[25px]  " /> назад
+          </h1>
+        </Link>
+      </div>
+      <div className=" mb-[90px] px-[10px] mt-[80px] flex justify-center items-center flex-col gap-[10px] ">
+        {/* products */}
+        {cart.map((watch) => {
+          return (
+            <div
+              key={watch.id}
+              className=" flex justify-start gap-[10px] border-[1px] w-[100%] border-solid rounded-xl border-white p-[5px] items-center"
             >
-              O'chirish
-            </button>
-          </div>
-        ))
-      )}
-      {basket.length > 0 && (
-        <button onClick={() => dispatch({ type: "CLEAR_BASKET" })}>
-          Savatni tozalash
-        </button>
-      )}
+              <img
+                src={watch.mainImage}
+                alt={watch.allTitle}
+                className="h-[110px]"
+              />
+              <h1 className="text-[17px] font-nunito">{watch.allTitle}</h1>
+            </div>
+          );
+        })}
+      </div>
+      <MenuAll />
     </div>
   );
 };

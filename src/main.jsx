@@ -6,7 +6,7 @@ import "./index.css";
 import ProductProvider from "./components/context/ProductContext.jsx";
 import DetailProvider from "./components/context/DetailContext.jsx";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-import { BasketProvider } from "./components/context/BasketContext.jsx";
+import BasketProvider from "./components/context/BasketContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <ThemeProvider>

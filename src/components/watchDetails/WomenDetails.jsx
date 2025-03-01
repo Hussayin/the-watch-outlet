@@ -9,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
-import { useBasket } from "../context/BasketContext";
 
 const WomensDetails = () => {
   const { products } = useContext(DetailContext);

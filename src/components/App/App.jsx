@@ -20,6 +20,8 @@ import RolexDetails from "../watchDetails/RolexDetails";
 import Womens from "../watchs/Womens";
 import WomensDetails from "../watchDetails/WomenDetails";
 import Basket from "./Basket";
+import { ToastContainer } from "react-toastify"; // Toastni qo'shamiz
+import "react-toastify/dist/ReactToastify.css"; // Toast stilini import qilamiz
 
 const App = () => {
   return (
@@ -58,6 +60,8 @@ const App = () => {
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>
+      {/* Toastlarni chiqarish uchun kerak */}
+      <ToastContainer className="my-toast" />
     </div>
   );
 };

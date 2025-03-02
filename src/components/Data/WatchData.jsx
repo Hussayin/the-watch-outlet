@@ -282,87 +282,10 @@ export const AllWatchs = {
       bracelet: "Кожа",
       toWater: "100 м",
     },
-    {
-      id: 6.2,
-      link: "6.2",
-      logo: tissotLogo,
-      logoWidth: "w-[90px]",
-      categori: "Tissot",
-      title: "Tissot Luxury",
-      allTitle: "Tissot Luxury Powermatic 80",
-      mainImage:
-        "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Analogue-Luxury-Powermatic-80-T0864072226100.webp",
-      production: "Швейцария",
-      rafcode: "T-0864072226100",
-      demoPrice: `1500`,
-      price: "750",
-      guarantee: "2 Года",
-      status: "Новые",
-      year: 2024,
-      brend: "Tissot",
-      gender: "man",
-      diameter: "42 мм",
-      glass: "Сапфировое",
-      mechanism: "Механический с автоподзаводом",
-      caseMaterial: "Нержавеющая сталь + PVD",
-      bracelet: "Нержавеющая сталь + PVD",
-      toWater: "100 м",
-    },
-    {
-      id: 6.3,
-      link: "6.3",
-      logo: tissotLogo,
-      logoWidth: "w-[90px]",
-      categori: "Tissot",
-      title: "Tissot T-Classic",
-      allTitle: "Tissot T-classic",
-      mainImage:
-        "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot%20T045%20T-Classic%20Bridgeport-T045.427.11.033.00.webp",
-      production: "Швейцария",
-      rafcode: "T-0454271103300",
-      demoPrice: `1500`,
-      price: "1400",
-      guarantee: "2 Года",
-      status: "Новые",
-      year: 2024,
-      brend: "Tissot",
-      gender: "man",
-      diameter: "42 мм",
-      glass: "Сапфировое",
-      mechanism: "Механический хронограф с автоподзаводом",
-      caseMaterial: "Сталь",
-      bracelet: "Сталь",
-      toWater: "100 м",
-    },
-    {
-      id: 6.4,
-      link: "6.4",
-      logo: tissotLogo,
-      logoWidth: "w-[90px]",
-      categori: "Tissot",
-      title: "Tissot Classic Dream",
-      allTitle: "Tissot Classic Dream",
-      mainImage:
-        "https://bekhruzwatch-data.netlify.app/tissot-done/T129-410-36-261-00_Tissot_Classic_Dream.webp",
-      production: "Швейцария",
-      rafcode: "T-1294103626100",
-      demoPrice: `1500`,
-      price: "400",
-      guarantee: "2 Года",
-      status: "Новые",
-      year: 2024,
-      brend: "Tissot",
-      gender: "man",
-      diameter: "42 мм",
-      glass: "Сапфировое",
-      mechanism: "Кварцевый, Хронограф",
-      caseMaterial: "Сталь",
-      bracelet: "Сталь",
-      toWater: "50 м",
-    },
+
     {
       id: 6.5,
-      link: "6.5",
+      link: "/womens/6.5",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -388,7 +311,7 @@ export const AllWatchs = {
     },
     {
       id: 6.6,
-      link: "6.6",
+      link: "/womens/6.6",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -414,7 +337,7 @@ export const AllWatchs = {
     },
     {
       id: 6.7,
-      link: "6.7",
+      link: "/womens/6.7",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -440,7 +363,7 @@ export const AllWatchs = {
     },
     {
       id: 6.8,
-      link: "6.8",
+      link: "/womens/6.8",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -466,7 +389,7 @@ export const AllWatchs = {
     },
     {
       id: 6.9,
-      link: "6.9",
+      link: "/womens/6.9",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -492,7 +415,7 @@ export const AllWatchs = {
     },
     {
       id: 6.11,
-      link: "6.11",
+      link: "/womens/6.11",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -518,7 +441,7 @@ export const AllWatchs = {
     },
     {
       id: 6.12,
-      link: "6.12",
+      link: "/womens/6.12",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -544,7 +467,7 @@ export const AllWatchs = {
     },
     {
       id: 6.13,
-      link: "6.13",
+      link: "/womens/6.13",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -570,7 +493,7 @@ export const AllWatchs = {
     },
     {
       id: 6.14,
-      link: "6.14",
+      link: "/womens/6.14",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -596,7 +519,7 @@ export const AllWatchs = {
     },
     {
       id: 6.15,
-      link: "6.15",
+      link: "/womens/6.15",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -622,7 +545,7 @@ export const AllWatchs = {
     },
     {
       id: 6.16,
-      link: "6.16",
+      link: "/womens/6.16",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -648,7 +571,7 @@ export const AllWatchs = {
     },
     {
       id: 6.17,
-      link: "6.17",
+      link: "/womens/6.17",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -674,7 +597,7 @@ export const AllWatchs = {
     },
     {
       id: 6.18,
-      link: "6.18",
+      link: "/womens/6.18",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -700,7 +623,7 @@ export const AllWatchs = {
     },
     {
       id: 6.19,
-      link: "6.19",
+      link: "/womens/6.19",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -726,7 +649,7 @@ export const AllWatchs = {
     },
     {
       id: 6.21,
-      link: "6.21",
+      link: "/womens/6.21",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -752,7 +675,7 @@ export const AllWatchs = {
     },
     {
       id: 6.22,
-      link: "6.22",
+      link: "/womens/6.22",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -778,7 +701,7 @@ export const AllWatchs = {
     },
     {
       id: 6.23,
-      link: "6.23",
+      link: "/womens/6.23",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -804,7 +727,7 @@ export const AllWatchs = {
     },
     {
       id: 6.24,
-      link: "6.24",
+      link: "/womens/6.24",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -830,7 +753,7 @@ export const AllWatchs = {
     },
     {
       id: 6.25,
-      link: "6.25",
+      link: "/womens/6.25",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -856,7 +779,7 @@ export const AllWatchs = {
     },
     {
       id: 6.26,
-      link: "6.26",
+      link: "/womens/6.26",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -882,7 +805,7 @@ export const AllWatchs = {
     },
     {
       id: 6.27,
-      link: "6.27",
+      link: "/womens/6.27",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -908,7 +831,7 @@ export const AllWatchs = {
     },
     {
       id: 6.28,
-      link: "6.28",
+      link: "/womens/6.28",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -934,7 +857,7 @@ export const AllWatchs = {
     },
     {
       id: 6.29,
-      link: "6.29",
+      link: "/womens/6.29",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
@@ -960,7 +883,7 @@ export const AllWatchs = {
     },
     {
       id: 6.31,
-      link: "6.31",
+      link: "/womens/6.31",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -988,7 +911,7 @@ export const AllWatchs = {
     },
     {
       id: 6.32,
-      link: "6.32",
+      link: "/womens/6.32",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1016,7 +939,7 @@ export const AllWatchs = {
     },
     {
       id: 6.33,
-      link: "6.33",
+      link: "/womens/6.33",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1044,7 +967,7 @@ export const AllWatchs = {
     },
     {
       id: 6.34,
-      link: "6.34",
+      link: "/womens/6.34",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1072,7 +995,7 @@ export const AllWatchs = {
     },
     {
       id: 6.35,
-      link: "6.35",
+      link: "/womens/6.35",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1100,7 +1023,7 @@ export const AllWatchs = {
     },
     {
       id: 6.36,
-      link: "6.36",
+      link: "/womens/6.36",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1128,7 +1051,7 @@ export const AllWatchs = {
     },
     {
       id: 6.37,
-      link: "6.37",
+      link: "/womens/6.37",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1156,7 +1079,7 @@ export const AllWatchs = {
     },
     {
       id: 6.38,
-      link: "6.38",
+      link: "/womens/6.38",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1184,7 +1107,7 @@ export const AllWatchs = {
     },
     {
       id: 6.39,
-      link: "6.39",
+      link: "/womens/6.39",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1212,7 +1135,7 @@ export const AllWatchs = {
     },
     {
       id: 6.41,
-      link: "6.41",
+      link: "/womens/6.41",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1240,7 +1163,7 @@ export const AllWatchs = {
     },
     {
       id: 6.42,
-      link: "6.42",
+      link: "/womens/6.42",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1268,7 +1191,7 @@ export const AllWatchs = {
     },
     {
       id: 6.43,
-      link: "6.43",
+      link: "/womens/6.43",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1296,7 +1219,7 @@ export const AllWatchs = {
     },
     {
       id: 6.44,
-      link: "6.44",
+      link: "/womens/6.44",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1324,7 +1247,7 @@ export const AllWatchs = {
     },
     {
       id: 6.45,
-      link: "6.45",
+      link: "/womens/6.45",
       logo: fredriqueLogo,
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
@@ -1353,7 +1276,7 @@ export const AllWatchs = {
     // Longines
     {
       id: 6.46,
-      link: "6.46",
+      link: "/womens/6.46",
       logo: longinesLogo,
       logoWidth: "w-[100px]",
       categori: "Longines",
@@ -1379,7 +1302,7 @@ export const AllWatchs = {
     },
     {
       id: 6.47,
-      link: "6.47",
+      link: "/womens/6.47",
       logo: longinesLogo,
       logoWidth: "w-[100px]",
       categori: "Longines",
@@ -1405,7 +1328,7 @@ export const AllWatchs = {
     },
     {
       id: 6.48,
-      link: "6.48",
+      link: "/womens/6.48",
       logo: longinesLogo,
       logoWidth: "w-[100px]",
       categori: "Longines",
@@ -1431,7 +1354,7 @@ export const AllWatchs = {
     },
     {
       id: 6.49,
-      link: "6.49",
+      link: "/womens/6.49",
       logo: longinesLogo,
       logoWidth: "w-[100px]",
       categori: "Longines",
@@ -1457,7 +1380,7 @@ export const AllWatchs = {
     },
     {
       id: 6.51,
-      link: "6.51",
+      link: "/womens/6.51",
       logo: longinesLogo,
       logoWidth: "w-[100px]",
       categori: "Longines",
@@ -1483,7 +1406,7 @@ export const AllWatchs = {
     },
     {
       id: 6.52,
-      link: "6.52",
+      link: "/womens/6.52",
       logo: longinesLogo,
       logoWidth: "w-[100px]",
       categori: "Longines",
@@ -3435,7 +3358,7 @@ export const AllWatchs = {
     // },
     {
       id: 1.83,
-      link: "1.83",
+      link: "/tissot/1.83",
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",

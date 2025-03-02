@@ -3,32 +3,41 @@ import { useState, createContext, useEffect } from "react";
 export const BasketContext = createContext();
 
 const BasketProvider = ({ children }) => {
-  // cart state
+  // Savatchani state
   const [cart, setCart] = useState([]);
 
-  const addToCart = (product, id) => {
-    const newItem = { ...product, amount: 1 };
-    // check if the item alredy in the cart
-    const cartItem = cart.find((item) => {
-      return item.id === id;
-    });
-    // if cart alredy in the cart
-    if (cartItem) {
-      const newCart = [...cart].map((item) => {
-        if (item.id === id) {
-          return { ...item, amount: cartItem.amount + 1 };
-        } else {
-          return item;
-        }
-      });
-      setCart(newCart);
-    } else {
-      setCart([...cart, newItem]);
+  // Sahifa yuklanganda `localStorage`dan mahsulotlarni yuklash
+  useEffect(() => {
+    const savedCart = localStorage.getItem("cart");
+    if (savedCart) {
+      setCart(JSON.parse(savedCart));
     }
+  }, []);
+
+  // Har safar `cart` o'zgarganda `localStorage`ga yozish
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
+
+  // Mahsulotni savatga qo'shish
+  const addToCart = (product) => {
+    // Agar mahsulot allaqachon savatda bo'lsa, qaytaramiz
+    if (cart.some((item) => item.id === product.id)) {
+      return;
+    }
+
+    // Yangi mahsulotni qo'shamiz
+    setCart([...cart, { ...product, amount: 1 }]);
+  };
+
+  // Mahsulotni savatdan o'chirish
+  const removeFromCart = (id) => {
+    const newCart = cart.filter((item) => item.id !== id);
+    setCart(newCart);
   };
 
   return (
-    <BasketContext.Provider value={{ addToCart, cart }}>
+    <BasketContext.Provider value={{ addToCart, removeFromCart, cart }}>
       {children}
     </BasketContext.Provider>
   );

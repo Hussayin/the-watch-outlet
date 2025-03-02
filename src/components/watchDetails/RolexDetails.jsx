@@ -9,16 +9,32 @@ import { useNavigate } from "react-router-dom";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
+import { MdAddShoppingCart } from "react-icons/md";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"; // Stilni import qilish
 import { BasketContext } from "../context/BasketContext";
 
 const RolexDetails = () => {
   // basket
-  const { addToCart } = useContext(BasketContext);
-
   const { products } = useContext(DetailContext);
   const { id } = useParams();
   const { sendToTelegram } = useContext(TelegramContext);
   const navigate = useNavigate();
+
+  const { addToCart } = useContext(BasketContext);
+  // basket
+  const handleAdd = () => {
+    addToCart(product, product.id);
+    toast.success("✅ Savatga joylandi!", {
+      position: "top-center",
+      autoClose: 2000, // 2 soniyada o'chadi
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: false,
+      theme: "dark",
+    });
+  };
 
   //! telegram send
   const handleProductClick = (product) => {
@@ -90,16 +106,29 @@ const RolexDetails = () => {
       {/* Product details */}
       <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
-        <div className="flex gap-[5px] items-center">
+        <div className="flex gap-[5px] justify-between items-center">
           <motion.img
-            onClick={() => addToCart(product, id)}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1.5 }}
             src={product.logo}
             alt="logo-brend"
-            className="rounded-lg w-[90px] bg-white text-center object-cover"
+            className="rounded-lg w-[90px] text-center object-cover"
           />
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              ease: "easeOut", // Easing funksiyasi
+              duration: 1, // Animatsiya davomiyligi
+              delay: 0.2,
+            }}
+            className=" flex flex-col gap-[10px] "
+          >
+            <button onClick={handleAdd} className="text-[33px] pr-[10px] ">
+              <MdAddShoppingCart />
+            </button>
+          </motion.div>
         </div>
 
         {/* Title */}

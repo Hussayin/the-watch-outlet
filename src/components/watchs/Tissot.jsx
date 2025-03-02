@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ProductContext } from "../context/ProductContext";
 import { TelegramContext } from "../context/TelegramContext";
+import MenuAll from "../App/MenuAll";
 
 const categories = [
   "All",
@@ -106,7 +107,7 @@ const Tissot = () => {
         </div>
       )}
 
-      <div className="mt-[10px] mb-[20px] grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[8px] w-[97%] m-auto">
+      <div className="mt-[10px] mb-[85px] grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[8px] w-[97%] m-auto">
         {filteredProducts.map((watch) => (
           <div onClick={() => handleProductClick(watch)} key={watch.id}>
             <Link to={`/tissot/${watch.id}`}>
@@ -182,6 +183,7 @@ const Tissot = () => {
           </div>
         ))}
       </div>
+      <MenuAll />
     </div>
   );
 };

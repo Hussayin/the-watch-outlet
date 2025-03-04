@@ -15,6 +15,7 @@ const categories = [
   "Longines",
   "Maurice",
   "Rolex",
+  "Raymond",
 ];
 
 const Womens = () => {

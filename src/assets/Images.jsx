@@ -11,7 +11,7 @@ export { default as westLogo } from "././west.png";
 // export { default as tagHeuerLogo } from "./tagHeuer";
 // export { default as armaniLogo } from "./Armani.png";
 // export { default as calvinLogo } from "./calvinLogo.webp";
-// export { default as raymondLogo } from "./raymond.webp";
+export { default as raymondLogo } from "././raymond.webp";
 // export { default as ferragamoLogo } from "./FerragamoLogo.png";
 // export { default as orientLogo } from "./orientLogo.png";
 // export { default as seikoLogo } from "./seikoLogo.png";

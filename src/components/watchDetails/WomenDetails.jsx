@@ -101,14 +101,14 @@ const WomensDetails = () => {
       {/* Product details */}
       <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
-        <div className="flex gap-[5px] justify-between items-center">
+        <div className="flex pt-[10px] gap-[5px] justify-between items-center">
           <motion.img
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1.5 }}
             src={product.logo}
             alt="logo-brend"
-            className="rounded-lg w-[90px] text-center object-cover"
+            className="rounded-lg w-[100px] bg-white text-center object-cover p-[3px] "
           />
           <motion.div
             initial={{ opacity: 0, x: 50 }}

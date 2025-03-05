@@ -125,7 +125,7 @@ const Womens = () => {
                     <img
                       src={watch.logo}
                       alt="logo-brend"
-                      className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg object-cover`}
+                      className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg p-[3px] object-cover`}
                     />
                   </motion.div>
                   <motion.div

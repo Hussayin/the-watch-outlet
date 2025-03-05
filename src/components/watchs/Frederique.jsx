@@ -7,7 +7,7 @@ import { ProductContext } from "../context/ProductContext";
 import { TelegramContext } from "../context/TelegramContext";
 import MenuAll from "../App/MenuAll";
 
-const categories = ["All", "Classics", "Highlife"];
+const categories = ["All", "Classics", "G-Classics", "Highlife"];
 
 const Frederique = () => {
   const { sendToTelegram } = useContext(TelegramContext);
@@ -113,7 +113,7 @@ const Frederique = () => {
                     <img
                       src={watch.logo}
                       alt="logo-brend"
-                      className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg object-cover`}
+                      className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} p-[5px] rounded-lg object-cover`}
                     />
                   </motion.div>
                   <motion.div

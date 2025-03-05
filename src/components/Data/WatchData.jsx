@@ -5807,7 +5807,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-303NN5B6",
       demoPrice: `1500`,
-      price: "11000",
+      price: "1100",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,

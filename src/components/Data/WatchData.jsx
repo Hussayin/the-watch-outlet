@@ -57,7 +57,7 @@ export const PopulorWatch = [
     title: "LONGINES MASTER",
     rafcode: "L-29084926",
     demoPrice: "1100",
-    price: "1200",
+    price: "2000",
     brend: "Longines",
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Longines-done/LONGINES-MASTER-L29084926.webp",

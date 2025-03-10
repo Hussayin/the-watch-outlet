@@ -24,6 +24,7 @@ const categories = [
   "DKNY",
   "Emporio-Armani",
   "Gervil",
+  "Movado",
 ];
 
 const Womens = () => {

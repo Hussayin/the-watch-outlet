@@ -7,7 +7,7 @@ const imgs = [
   "https://cms.longines.com/uploads/media/homepage-slider-desktop/00/2590-Home%20page%20slider%20master%20collection%20desktop%20.png?v=1-0&w=1200",
   "https://www.tissotwatches.com/on/demandware.static/-/Library-Sites-Tissot-SharedLibrary/default/dw9cea5200/3-STANDALONE-PAGES/1-BRAND-PAGES/Ambassadors/KnowHow_accessorization_1280x1080.jpeg",
   "https://cms.longines.com/uploads/media/categories-cover-desktop/05/2275-Banner_Longines_Spirit_Zulu_Time_desktop.png?v=3-0&w=1200&w=1200",
-  "https://assets.tissotwatches.com/transform/Extend/ed1000a9-b292-44b4-b45d-acc47809e161/T137-407-11-041-02_B1",
+  "https://frederiqueconstant.com/wp-content/uploads/images/Highlife_Ladies_G1.jpg",
 ];
 
 const ONE_SECOND = 1000;

@@ -16,6 +16,14 @@ const categories = [
   "Maurice",
   "Rolex",
   "Raymond",
+  "Baume",
+  "Appels",
+  "Anna-Kelin",
+  "Bulova",
+  "Calvin-Klein",
+  "DKNY",
+  "Emporio-Armani",
+  "Gervil",
 ];
 
 const Womens = () => {
@@ -125,7 +133,7 @@ const Womens = () => {
                     <img
                       src={watch.logo}
                       alt="logo-brend"
-                      className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg p-[3px] object-cover`}
+                      className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} bg-white rounded-lg p-[3px] object-cover`}
                     />
                   </motion.div>
                   <motion.div

@@ -25,6 +25,8 @@ const categories = [
   "Emporio-Armani",
   "Gervil",
   "Movado",
+  "Rado",
+  "Rotary",
 ];
 
 const Womens = () => {

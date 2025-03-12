@@ -266,7 +266,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot",
-      allTitle: "Tissot T-Lady Lady Heart Automatic",
+      allTitle: "Tissot Lady Lady Heart Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens/tissot_lady_heart_automatic_t0502071610600.webp",
       production: "Швейцария",
@@ -344,7 +344,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot",
-      allTitle: "Tissot T-Tactile T-Touch Solar",
+      allTitle: "Tissot Tactile Touch Solar",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens/tissot-T0752201110101.webp",
       production: "Швейцария",
@@ -370,7 +370,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot",
-      allTitle: "Tissot T-Lady Dressport",
+      allTitle: "Tissot Lady Dressport",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens/tissot-T050.217.16.052.01.webp",
       production: "Швейцария",
@@ -396,7 +396,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot",
-      allTitle: "Tissot T-Lady T-Wave",
+      allTitle: "Tissot Lady Wave",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens/tissot-t02147582.webp",
       production: "Швейцария",
@@ -423,7 +423,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot",
-      allTitle: "Tissot T-Lady T-Wave",
+      allTitle: "Tissot Lady Wave",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens/tissot-T02.1.425.52.webp",
       production: "Швейцария",
@@ -1358,8 +1358,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
-      title: "Tissot T-Classic PR 100",
-      allTitle: "Tissot T-Classic PR 100",
+      title: "Tissot Classic PR 100",
+      allTitle: "Tissot Classic PR 100",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/TissotwomensPR_ChicStainlessSteelCasualWatchYellowGoldT1019103311601.webp",
       production: "Швейцария",
@@ -1805,7 +1805,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Carson",
-      allTitle: "Tissot T-Trend Cera RIP",
+      allTitle: "Tissot Trend Cera RIP",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Cera-RIP-T-064.210.22.056.00.webp",
       production: "Швейцария",
@@ -1831,7 +1831,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Classic",
-      allTitle: "Tissot T-Classic Chemin des Tourelles",
+      allTitle: "Tissot Classic Chemin des Tourelles",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Chemindes-T-0992071111300.webp",
       production: "Швейцария",
@@ -1883,7 +1883,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Classic Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Couturier-32mm-Steel-Black-T-0352106605100.webp",
       production: "Швейцария",
@@ -1987,7 +1987,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Flamingo",
-      allTitle: "Tissot T-Lady Flamingo",
+      allTitle: "Tissot Lady Flamingo",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Flamingo-T-0942101112100.webp",
       production: "Швейцария",
@@ -2091,7 +2091,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Automatics",
-      allTitle: "Tissot T-Classic Automatics III",
+      allTitle: "Tissot Classic Automatics III",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-Automatics-III-T-065-430-22-031-00.webp",
       production: "Швейцария",
@@ -2117,7 +2117,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot dream",
-      allTitle: "Tissot T-Classic dream",
+      allTitle: "Tissot Classic dream",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/tissot-T-classic-dream-T-0332101105300.webp",
       production: "Швейцария",
@@ -2143,7 +2143,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Classic PR100",
-      allTitle: "Tissot T-Classic PR100 Lady Small",
+      allTitle: "Tissot Classic PR100 Lady Small",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-PR100-Lady-Small-T1010103345100.webp",
       production: "Швейцария",
@@ -2169,7 +2169,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-035.207.11.061.00.webp",
       production: "Швейцария",
@@ -2195,7 +2195,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-035.207.36.061.00.webp",
       production: "Швейцария",
@@ -2221,7 +2221,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Tradition",
-      allTitle: "Tissot T-Classic Tradition",
+      allTitle: "Tissot Classic Tradition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-063.409.36.018.00.webp",
       production: "Швейцария",
@@ -2246,8 +2246,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
-      title: "Tissot T-Classic",
-      allTitle: "Tissot T-Classic",
+      title: "Tissot Classic",
+      allTitle: "Tissot Classic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/tissot-T-classic-T-129-407-22-031-00.webp",
       production: "Швейцария",
@@ -2273,7 +2273,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Le-Locle",
-      allTitle: "Tissot T-Classic Le-Locle",
+      allTitle: "Tissot Classic Le-Locle",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-Women's-T-0062071112600.webp",
       production: "Швейцария",
@@ -2298,8 +2298,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
-      title: "Tissot T-Trend Ladies",
-      allTitle: "Tissot T-Trend Femini-T",
+      title: "Tissot Trend Ladies",
+      allTitle: "Tissot Trend Femini",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Trend-T113.109.36.116.00.webp",
       production: "Швейцария",
@@ -2324,8 +2324,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Tissot",
-      title: "Tissot T-Lady T-Wave",
-      allTitle: "Tissot T-Lady T-Wave",
+      title: "Tissot Lady Wave",
+      allTitle: "Tissot Lady Wave",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Wave-T-1122103345600.webp",
       production: "Швейцария",
@@ -2351,7 +2351,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Tradition",
-      allTitle: "Tissot T-Classic Tradition",
+      allTitle: "Tissot Classic Tradition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Tradition-5.5-Lady-T-063.209.36.038.00.webp",
       production: "Швейцария",
@@ -2377,7 +2377,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Tissot",
       title: "Tissot Bridgeport",
-      allTitle: "Tissot T-Classic Bridgeport",
+      allTitle: "Tissot Classic Bridgeport",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TissotBridgeportLadyT0970102611800-removebg-preview%20(1).webp",
       production: "Швейцария",
@@ -2953,8 +2953,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Pr-100",
-      title: "Tissot T-Classic PR 100",
-      allTitle: "Tissot T-Classic PR 100",
+      title: "Tissot Classic PR 100",
+      allTitle: "Tissot Classic PR 100",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/TissotwomensPR_ChicStainlessSteelCasualWatchYellowGoldT1019103311601.webp",
       production: "Швейцария",
@@ -3006,7 +3006,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Seastar",
       title: "Tissot Seastar",
-      allTitle: "Tissot T-Sport Seastar 1000",
+      allTitle: "TissotSport Seastar 1000",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/T120_407_17_041_00.webp",
       production: "Швейцария",
@@ -3058,8 +3058,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",
-      title: "T-Classic Chemin",
-      allTitle: "Tissot T-Classic Chemin",
+      title: "Classic Chemin",
+      allTitle: "Tissot Classic Chemin",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/T-ClassicCheminT099.429.36.038.00.webp",
       production: "Швейцария",
@@ -3084,7 +3084,7 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "T-Race Touch",
+      title: "Race Touch",
       allTitle: "Tissot T-Race Touch",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/T081.420.17.057.01-Tissot-T-Race-Touch.webp",
@@ -3188,8 +3188,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",
-      title: "Tissot T-Classic",
-      allTitle: "Tissot T-classic",
+      title: "Tissot Classic",
+      allTitle: "Tissot classic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot%20T045%20T-Classic%20Bridgeport-T045.427.11.033.00.webp",
       production: "Швейцария",
@@ -3371,7 +3371,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "T-trend",
       title: "Tissot Carson",
-      allTitle: "Tissot T-Trend Cera RIP",
+      allTitle: "Tissot Trend Cera RIP",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Cera-RIP-T-064.210.22.056.00.webp",
       production: "Швейцария",
@@ -3397,7 +3397,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Classic",
-      allTitle: "Tissot T-Classic Chemin des Tourelles",
+      allTitle: "Tissot Classic Chemin des Tourelles",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Chemindes-T-0992071111300.webp",
       production: "Швейцария",
@@ -3501,7 +3501,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Classic Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Couturier-32mm-Steel-Black-T-0352106605100.webp",
       production: "Швейцария",
@@ -3708,7 +3708,7 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-lady",
-      title: "Tissot T-Lady",
+      title: "Tissot Lady",
       allTitle: "Tissot T050 T-Lady Dressport",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Dressport-T-0502176711700.webp",
@@ -3735,7 +3735,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Everytime",
-      allTitle: "Tissot T-Classic Everytime",
+      allTitle: "Tissot Classic Everytime",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT-EVERYTIME-SWISSMATIC-T109.407.17.032.00.webp",
       production: "Швейцария",
@@ -3761,7 +3761,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "T-lady",
       title: "Tissot Flamingo",
-      allTitle: "Tissot T-Lady Flamingo",
+      allTitle: "Tissot Lady Flamingo",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/tissot-flamingo-T-0942101105100.webp",
       production: "Швейцария",
@@ -3787,7 +3787,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "T-lady",
       title: "Tissot Flamingo",
-      allTitle: "Tissot T-Lady Flamingo",
+      allTitle: "Tissot Lady Flamingo",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Flamingo-T-0942101112100.webp",
       production: "Швейцария",
@@ -4020,7 +4020,7 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-touch",
+      title: "Tissot touch",
       allTitle: "Tissot touch Black Chronograf Dial",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Mens-T0474201705100-T-touch-Black-Chronograf-Dial-Watch.webp",
@@ -4046,8 +4046,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",
-      title: "Tissot T-Classic",
-      allTitle: "Tissot T-Classic",
+      title: "Tissot Classic",
+      allTitle: "Tissot Classic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-PR100-Lady-Sport-Chic-T-1019101135100.webp",
       production: "Швейцария",
@@ -4385,7 +4385,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Seastar",
       title: "TISSOT T-Sport",
-      allTitle: "TISSOT T-Sport Seastar 1000",
+      allTitle: "TISSOT Sport Seastar 1000",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Seastar-1000-Chronograph-T120.417.17.051.00.webp",
       production: "Швейцария",
@@ -4411,7 +4411,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Seastar",
       title: "TISSOT T-Sport",
-      allTitle: "TISSOT T-Sport Seastar 1000",
+      allTitle: "TISSOT Sport Seastar 1000",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Seastar-1000-Quartz-GMT-T-1208521705100.webp",
       production: "Швейцария",
@@ -4541,7 +4541,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Automatics",
-      allTitle: "Tissot T-Classic Automatics III",
+      allTitle: "Tissot Classic Automatics III",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-Automatics-III-T-065-430-22-031-00.webp",
       production: "Швейцария",
@@ -4567,7 +4567,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Carson",
-      allTitle: "Tissot T-Classic Carson",
+      allTitle: "Tissot Classic Carson",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-Carson-T-085.427.16.013.00.webp",
       production: "Швейцария",
@@ -4593,7 +4593,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot dream",
-      allTitle: "Tissot T-Classic dream",
+      allTitle: "Tissot Classic dream",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/tissot-T-classic-dream-T-0332101105300.webp",
       production: "Швейцария",
@@ -4619,7 +4619,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Pr-100",
       title: "Tissot Classic PR100",
-      allTitle: "Tissot T-Classic PR100 Lady Small",
+      allTitle: "Tissot Classic PR100 Lady Small",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-PR100-Lady-Small-T1010103345100.webp",
       production: "Швейцария",
@@ -4671,7 +4671,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-035.207.11.061.00.webp",
       production: "Швейцария",
@@ -4697,7 +4697,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-035.207.36.061.00.webp",
       production: "Швейцария",
@@ -4723,7 +4723,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Couturier",
-      allTitle: "Tissot T-Classic Couturier",
+      allTitle: "Tissot Classic Couturier",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-classic-T-0354071605100.webp",
       production: "Швейцария",
@@ -4749,7 +4749,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Tradition",
-      allTitle: "Tissot T-Classic Tradition",
+      allTitle: "Tissot Classic Tradition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-063.409.36.018.00.webp",
       production: "Швейцария",
@@ -4774,8 +4774,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",
-      title: "Tissot T-Classic",
-      allTitle: "Tissot T-Classic",
+      title: "Tissot Classic",
+      allTitle: "Tissot Classic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/tissot-T-classic-T-129-407-22-031-00.webp",
       production: "Швейцария",
@@ -4801,7 +4801,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Classic Dream",
-      allTitle: "Tissot T-Classic Dream",
+      allTitle: "Tissot Classic Dream",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T-129.410.16.053.00.webp",
       production: "Швейцария",
@@ -4827,7 +4827,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Open-Heart",
-      allTitle: "Tissot T-Classic Open Heart",
+      allTitle: "Tissot Classic Open Heart",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T063.907.16.038.00.webp",
       production: "Швейцария",
@@ -4853,7 +4853,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Carson",
-      allTitle: "Tissot T-Classic  Carson",
+      allTitle: "Tissot Classic  Carson",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-T122.407.11.031.00.webp",
       production: "Швейцария",
@@ -4879,7 +4879,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Le-Locle",
-      allTitle: "Tissot T-Classic Le-Locle",
+      allTitle: "Tissot Classic Le-Locle",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Classic-Women's-T-0062071112600.webp",
       production: "Швейцария",
@@ -4956,8 +4956,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "Classic",
-      title: "Tissot T-One",
-      allTitle: "Tissot T-Classic T-One",
+      title: "Tissot One",
+      allTitle: "Tissot Classic One",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-One-T0384301605700.webp",
       production: "Швейцария",
@@ -4982,8 +4982,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Sport T-Race",
-      allTitle: "Tissot T-Sport T-Race",
+      title: "Tissot Sport Race",
+      allTitle: "Tissot Sport Race",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Race-Automatic-T-115-427-27-061-00.webp",
       production: "Швейцария",
@@ -5008,8 +5008,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Sport T-Race",
-      allTitle: "Tissot T-Sport T-Race",
+      title: "Tissot Sport Race",
+      allTitle: "Tissot Sport Race",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-RACE-AUTOMATIC-T1154272703100.webp",
       production: "Швейцария",
@@ -5034,8 +5034,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Race Motogp",
-      allTitle: "Tissot T-Race Motogp Special Edition",
+      title: "Tissot Race Motogp",
+      allTitle: "Tissot Race Motogp Special Edition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT-T-RACE-MOTOGP-T1154173706104.webp",
       production: "Швейцария",
@@ -5060,8 +5060,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Race Motogp",
-      allTitle: "Tissot T-Race Motogp Special Edition",
+      title: "Tissot Race Motogp",
+      allTitle: "Tissot Race Motogp Special Edition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Race-Swissmatic-T-115-407-37-031-00.webp",
       production: "Швейцария",
@@ -5086,8 +5086,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Sport T-Race",
-      allTitle: "Tissot T-Sport T-Race",
+      title: "Tissot Sport Race",
+      allTitle: "Tissot Sport Race",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT-T-Race-T-115.407.17.041.00.webp",
       production: "Швейцария",
@@ -5112,8 +5112,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Race Touch",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Race Touch",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT-T-Race-Touch-T081.420.17.057.02.png",
       production: "Швейцария",
@@ -5138,8 +5138,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Race",
-      allTitle: "Tissot T-Race Powermatic 80 ",
+      title: "Tissot Race",
+      allTitle: "Tissot Race Powermatic 80 ",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-RacePowermatic-T-141-807-11-041-00.webp",
       production: "Швейцария",
@@ -5164,8 +5164,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Sport Chrono",
-      allTitle: "Tissot T-Sport Chrono",
+      title: "Tissot Sport Chrono",
+      allTitle: "Tissot Sport Chrono",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Sport%20-Chrono-T-116.617.36.047.00.webp",
       production: "Швейцария",
@@ -5191,7 +5191,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Prs-516",
       title: "Tissot PRS-516",
-      allTitle: "Tissot T-Sport PRS 516",
+      allTitle: "Tissot Sport PRS 516",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Sport-PRS-T-131.617.36.052.00.webp",
       production: "Швейцария",
@@ -5217,7 +5217,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Prs-516",
       title: "Tissot PRS-516",
-      allTitle: "Tissot T-Sport PRS 516",
+      allTitle: "Tissot Sport PRS 516",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Sport-PRS-T-91.1.426.51.webp",
       production: "Швейцария",
@@ -5242,8 +5242,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Race",
-      allTitle: "Tissot T-Sport T-Race",
+      title: "Tissot Race",
+      allTitle: "Tissot Sport Race",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Sport-T-1154273705101.webp",
       production: "Швейцария",
@@ -5269,7 +5269,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "T-race",
       title: "Tissot Supersport",
-      allTitle: "Tissot T-Sport Supersport Quartz",
+      allTitle: "Tissot Sport Supersport Quartz",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Sport-T-125.610.16.051.00.webp",
       production: "Швейцария",
@@ -5294,8 +5294,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-race",
-      title: "Tissot T-Race",
-      allTitle: "Tissot T-Sport T-Race",
+      title: "Tissot Race",
+      allTitle: "Tissot Sport Race",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Sport-T-Race-T1154173705100.webp",
       production: "Швейцария",
@@ -5320,8 +5320,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch Expert Solar",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch Expert Solar",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT-T-TOUCH-EXPERT-SOLAR-T091.420.47.057.01.webp",
       production: "Швейцария",
@@ -5346,8 +5346,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch II",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch II",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT-T-Touch-T047.420.17.051.01.webp",
       production: "Швейцария",
@@ -5372,8 +5372,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch Classic",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch Classic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Touch_ClassicT083.420.16.051.00.webp",
       production: "Швейцария",
@@ -5450,8 +5450,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-trend",
-      title: "Tissot T-Trend Ladies",
-      allTitle: "Tissot T-Trend Femini-T",
+      title: "Tissot Trend Ladies",
+      allTitle: "Tissot Trend Femini-T",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Trend-T113.109.36.116.00.webp",
       production: "Швейцария",
@@ -5476,8 +5476,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-lady",
-      title: "Tissot T-Lady T-Wave",
-      allTitle: "Tissot T-Lady T-Wave",
+      title: "Tissot Lady Wave",
+      allTitle: "Tissot Lady Wave",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-T-Wave-T-1122103345600.webp",
       production: "Швейцария",
@@ -5503,7 +5503,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Titanium",
-      allTitle: "Tissot T-Classic Titanium",
+      allTitle: "Tissot Classic Titanium",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Titanium-Powermatic-80-087-407-46-057-00.webp",
       production: "Швейцария",
@@ -5528,8 +5528,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch Classic",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch Classic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Touch_Classic_T083.420.16.011.00.webp",
       production: "Швейцария",
@@ -5555,7 +5555,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Tradition",
-      allTitle: "Tissot T-Classic Tradition",
+      allTitle: "Tissot Classic Tradition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Tradition-5.5-Lady-T-063.209.36.038.00.webp",
       production: "Швейцария",
@@ -5581,7 +5581,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Tradition",
-      allTitle: "Tissot T-Classic Tradition",
+      allTitle: "Tissot Classic Tradition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Tradition-Blue-T-0636101604700.webp",
       production: "Швейцария",
@@ -5607,7 +5607,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Tradition",
-      allTitle: "Tissot T-Classic Tradition",
+      allTitle: "Tissot Classic Tradition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot-Tradition-Powermati%D1%81-T-0639071105800.webp",
       production: "Швейцария",
@@ -5659,7 +5659,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Classic",
       title: "Tissot Bridgeport",
-      allTitle: "Tissot T-Classic Bridgeport",
+      allTitle: "Tissot Classic Bridgeport",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TissotBridgeportLadyT0970102611800-removebg-preview%20(1).webp",
       production: "Швейцария",
@@ -5684,8 +5684,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch Expert Solar",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch Expert Solar",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TissotT-TouchExpertT091.420.47.051.00.webp",
       production: "Швейцария",
@@ -5763,7 +5763,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Everytime",
       title: "Tissot Everytime",
-      allTitle: "Tissot T-Classic Everytime",
+      allTitle: "Tissot Classic Everytime",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_Everytime_Swissmatic_40mm-T109-407-16-051-00.webp",
       production: "Швейцария",
@@ -5841,7 +5841,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Prc-200",
       title: "Tissot PRC-200",
-      allTitle: "Tissot T-Sport PRC-200",
+      allTitle: "Tissot Sport PRC-200",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_PRC200-Automatic-Chronograph-T055-427-17-057-00.webp",
       production: "Швейцария",
@@ -5867,7 +5867,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Prc-200",
       title: "Tissot PRC-200",
-      allTitle: "Tissot T-Sport PRC-200",
+      allTitle: "Tissot Sport PRC-200",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_PRC_200_Automatic_Chronograph_T055.427.16.057.00.webp",
       production: "Швейцария",
@@ -5893,7 +5893,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Prc-200",
       title: "Tissot PRC-200",
-      allTitle: "Tissot T-Sport PRC-200",
+      allTitle: "Tissot Sport PRC-200",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_PRX-t-137.463.11.030.00.webp",
       production: "Швейцария",
@@ -5945,7 +5945,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Seastar",
       title: "Tissot Seastar",
-      allTitle: "Tissot T-Sport Seastar 1000",
+      allTitle: "Tissot Sport Seastar 1000",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_Seastar_1000_Powermatic-80-T120.407.17.041.00.webp",
       production: "Швейцария",
@@ -5997,7 +5997,7 @@ export const AllWatchs = {
       logoWidth: "w-[90px]",
       categori: "Pr-100",
       title: "Tissot PRC-100",
-      allTitle: "Tissot  T-Sport PRC 100",
+      allTitle: "Tissot Sport PRC 100",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_T-Sport_PRC_100_T008.414.11.201.00.webp",
       production: "Швейцария",
@@ -6022,8 +6022,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch Expert Solar",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch Expert Solar",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/TISSOT_T-Touch_Expert_Solar_T091.420.46.051.01.webp",
       production: "Швейцария",
@@ -6048,8 +6048,8 @@ export const AllWatchs = {
       logo: tissotLogo,
       logoWidth: "w-[90px]",
       categori: "T-touch",
-      title: "Tissot T-Tactile",
-      allTitle: "Tissot T-Tactile T-Touch Expert Solar",
+      title: "Tissot Tactile",
+      allTitle: "Tissot Tactile Touch Expert Solar",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/tissot-done/Tissot_T-Touch_Expert_Solar_T091.420.47.051.01.webp",
       production: "Швейцария",

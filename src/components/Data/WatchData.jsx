@@ -6840,7 +6840,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Manufacture",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstantWatchMen_sClasscAutomaticFC710MB4H6.webp",
       production: "Швейцария",
@@ -6868,7 +6868,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Highlife",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstantHighlifeAutomaticChronographFC391B4NH6B.webp",
       production: "Швейцария",
@@ -6896,7 +6896,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Classics Index Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstant-fr-303NN5B6.webp",
       production: "Швейцария",
@@ -6924,7 +6924,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Vintage Rally",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstant-FC-397HSG5B6.webp",
       production: "Швейцария",
@@ -6952,7 +6952,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Ladies Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstant-FC-318MPWN3B6.webp",
       production: "Швейцария",
@@ -6980,7 +6980,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Slimline",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstant-FC-312S4S6.webp",
       production: "Швейцария",
@@ -7008,7 +7008,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Highlife",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstant-FC-310N4NH6B.webp",
       production: "Швейцария",
@@ -7036,7 +7036,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Classics Moonphas",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/FrederiqueConstant-FC-270BR4P6.webp",
       production: "Швейцария",
@@ -7064,7 +7064,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Runabout",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-393RM5B6.webp",
       production: "Швейцария",
@@ -7092,7 +7092,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-350B5B6B.webp",
       production: "Швейцария",
@@ -7120,7 +7120,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Highlife",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-310VD2NH2B.webp",
       production: "Швейцария",
@@ -7148,7 +7148,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Slim Line",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-306MC4S36.webp",
       production: "Швейцария",
@@ -7176,7 +7176,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Classics",
       title: "Frederique Constant",
-      allTitle: "Frederique Constant",
+      allTitle: "Frederique Constant Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-303BN5B6B.webp",
       production: "Швейцария",
@@ -7204,7 +7204,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Vintage Rally Healey",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-301HGRS5B6.webp",
       production: "Швейцария",
@@ -7232,7 +7232,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Classics Index Business Timer",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/frederique-constant-FC-270SW4P26.webp",
       production: "Швейцария",
@@ -7260,7 +7260,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Constant Runabout",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Automatic-FC-303RMN5B6.webp",
       production: "Швейцария",
@@ -7288,7 +7288,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Carree Open hurt",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Carree-FC-310MC4C26.webp",
       production: "Швейцария",
@@ -7316,7 +7316,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Classics Index",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-Automatic-FC-303BN5B6B.webp",
       production: "Швейцария",
@@ -7344,7 +7344,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-220NS5B6B.webp",
       production: "Швейцария",
@@ -7372,7 +7372,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Automatic",
+      allTitle: "Frederique Quartz Two-Tone",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-220SS5B2B.webp",
       production: "Швейцария",
@@ -7400,7 +7400,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Quartz",
+      allTitle: "Frederique Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-259NT5B6.webp",
       production: "Швейцария",
@@ -7428,11 +7428,11 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Quartz Chronograph",
+      allTitle: "Frederique Constant Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/frederique-constant-Classics-FC-292MC4P6.webp",
       production: "Швейцария",
-      rafcode: "FC-259NT5B6",
+      rafcode: "FC-292MC4P6",
       demoPrice: `1500`,
       price: "950",
       guarantee: "2 Года",
@@ -7456,7 +7456,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Quartz Chronograph",
+      allTitle: "Frederique Constant Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-292MG5B6B.webp",
       production: "Швейцария",
@@ -7484,7 +7484,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Chronograph",
-      allTitle: "Frederique Constant Classics Chronograph",
+      allTitle: "Frederique Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-292MV5B4.webp",
       production: "Швейцария",
@@ -7512,7 +7512,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Chronograph",
-      allTitle: "Frederique Constant Classics Chronograph",
+      allTitle: "Frederique Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-296DG5B6.webp",
       production: "Швейцария",
@@ -7540,7 +7540,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Automatic ",
-      allTitle: "Frederique Constant Classics Automatic ",
+      allTitle: "Frederique Classics",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-303LGS5B6.webp",
       production: "Швейцария",
@@ -7568,7 +7568,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Automatic ",
-      allTitle: "Frederique Constant Classics Automatic ",
+      allTitle: "Frederique Classics Index Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-303MC5B6.webp",
       production: "Швейцария",
@@ -7596,7 +7596,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics Index",
-      allTitle: "Frederique Constant Classics Index",
+      allTitle: "Frederique Classics Index Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-FC-303NB5B6.webp",
       production: "Швейцария",
@@ -7624,7 +7624,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Heart",
-      allTitle: "Frederique Constant Classics Heart Beat",
+      allTitle: "Frederique Classics Carree Heart Beat",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics-Heart_Beat-FC-311S4C6.webp",
       production: "Швейцария",
@@ -7652,7 +7652,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Classics",
+      allTitle: "Frederique Classics Index Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Classics_-FC-303NN5B6B.webp",
       production: "Швейцария",
@@ -7680,7 +7680,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Classics",
+      allTitle: "Frederique Constant Slim Line",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-FC-220S5S6B.webp",
       production: "Швейцария",
@@ -7736,7 +7736,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Classics",
+      allTitle: "Frederique Classics Quartz",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-FC220SS5B6.webp",
       production: "Швейцария",
@@ -7764,7 +7764,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Highlife",
       title: "Frederique Vintage Healey",
-      allTitle: "Frederique Constant Vintage Healey Limited Edition",
+      allTitle: "Frederique Vintage Healey Limited Edition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Healey-FC-303GBRH5B4.webp",
       production: "Швейцария",
@@ -7848,7 +7848,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Highlife",
       title: "Frederique Highlife",
-      allTitle: "Frederique Highlife Automatic",
+      allTitle: "Frederique Avener Highlife Limited Edition",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Highlife-FC-303TA3DNH6.webp",
       production: "Швейцария",
@@ -7876,7 +7876,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Highlife",
       title: "Frederique Highlife",
-      allTitle: "Frederique Highlife Automatic",
+      allTitle: "Frederique Highlife Automatic COSC",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Highlife-FC-303V4NH2B.webp",
       production: "Швейцария",
@@ -7904,7 +7904,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "Highlife",
       title: "Frederique Highlife",
-      allTitle: "Frederique Highlife Automatic",
+      allTitle: "Frederique Highlife",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Highlife-FC-310NSUS4NH6B.webp",
       production: "Швейцария",
@@ -7932,7 +7932,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Classics",
+      allTitle: "Frederique Horological Smartwatc",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-HOROLOGICAL-SMARTWATCH-FC-285S5B6.webp",
       production: "Швейцария",
@@ -7988,7 +7988,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Hybrid",
-      allTitle: "Frederique Hybrid",
+      allTitle: "Frederique Manufacture",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Horological-Smartwatch-FC-750V4H6.webp",
       production: "Швейцария",
@@ -8072,7 +8072,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Moonphase",
-      allTitle: "Frederique  Classic Moonphase",
+      allTitle: "Frederique Manufacture",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Manufacture-Classics-Moonphase-FC-712MS4H6.webp",
       production: "Швейцария",
@@ -8184,7 +8184,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Slimline",
-      allTitle: "Frederique Slimline Automatic Black",
+      allTitle: "Frederique Slimline Automatic",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Slim-Line-Analog-FC-306G4S6.webp",
       production: "Швейцария",
@@ -8212,7 +8212,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classic",
-      allTitle: "Frederique Classic",
+      allTitle: "Frederique Slimline Gents Small Seconds",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/Frederique-Constant-done/Frederique-Constant-Slim-Line-FC-245BR5S6.webp",
       production: "Швейцария",
@@ -8604,7 +8604,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Oval Art Deco",
+      allTitle: "Frederique Oval Art Deco",
       mainImage:
         "https://bekhruz-frederique.netlify.app/Frederique/Classics-Art-FC-200MPW2VD6B.webp",
       production: "Швейцария",
@@ -8660,7 +8660,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Classics",
+      allTitle: "Frederique Slimline Ladies Moonphase",
       mainImage:
         "https://bekhruz-frederique.netlify.app/Frederique/classics-FC-206MPND1S6.webp",
       production: "Швейцария",
@@ -8912,7 +8912,7 @@ export const AllWatchs = {
       logoPa: "p-[5px]",
       categori: "G-Classics",
       title: "Frederique Classics",
-      allTitle: "Frederique Constant Slimline",
+      allTitle: "Frederique Constant Art Deco",
       mainImage:
         "https://bekhruz-frederique.netlify.app/Frederique/Oval-FC-200MPN2V6B.webp",
       production: "Швейцария",

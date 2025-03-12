@@ -1415,7 +1415,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Rolex",
       title: "Rolex",
-      allTitle: "Rolex Submariner",
+      allTitle: "Rolex Datejust",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/m278274-0036.webp",
       production: "Швейцария",
@@ -1443,7 +1443,7 @@ export const AllWatchs = {
       logoPa: "p-[0px]",
       categori: "Submariner",
       title: "Rolex",
-      allTitle: "Rolex Submariner",
+      allTitle: "Rolex Datejust",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/m126234-0037.webp",
       production: "Швейцария",
@@ -9895,9 +9895,9 @@ export const AllWatchs = {
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
       logoPa: "p-[0px]",
-      categori: "Submariner",
+      categori: "Datejust",
       title: "Rolex",
-      allTitle: "Rolex Submariner",
+      allTitle: "Rolex Datejust",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/m278274-0036.webp",
       production: "Швейцария",
@@ -9923,9 +9923,9 @@ export const AllWatchs = {
       logoWidth: "w-[100px]",
       logoColor: "bg-white",
       logoPa: "p-[0px]",
-      categori: "Submariner",
+      categori: "Datejust",
       title: "Rolex",
-      allTitle: "Rolex Submariner",
+      allTitle: "Rolex Datejust",
       mainImage:
         "https://bekhruzwatch-data.netlify.app/womens-done/m126234-0037.webp",
       production: "Швейцария",

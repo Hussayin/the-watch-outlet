@@ -151,7 +151,7 @@ const Womens = () => {
                     <h1 className="text-[19px] leading-6 uppercase font-bold font-nunito">
                       {watch.brend}
                     </h1>
-                    <h1 className="text-[12px]">{watch.rafcode}</h1>
+                    <h1 className="text-[12px]">{watch.allTitle}</h1>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -50 }}

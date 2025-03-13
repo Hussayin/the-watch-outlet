@@ -22,6 +22,8 @@ import WomensDetails from "../watchDetails/WomenDetails";
 import Basket from "./Basket";
 import { ToastContainer } from "react-toastify"; // Toastni qo'shamiz
 import "react-toastify/dist/ReactToastify.css"; // Toast stilini import qilamiz
+import Raymond from "../watchs/Raymond";
+import RaymondDetails from "../watchDetails/RaymondDetails";
 
 const App = () => {
   return (
@@ -57,6 +59,9 @@ const App = () => {
           {/* Womens */}
           <Route path="/womens" element={<Womens />} />
           <Route path="/womens/:id" element={<WomensDetails />} />
+          {/* raymond */}
+          <Route path="/raymond" element={<Raymond />} />
+          <Route path="/raymond/:id" element={<RaymondDetails />} />
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>

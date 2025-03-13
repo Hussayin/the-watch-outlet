@@ -248,7 +248,7 @@ export const watchBrends = [
     link: "/raymond",
     image:
       "https://bekhruzwatch-data.netlify.app/Raymond-Weil/raymond-weil-maestro-moon-phase-fronte-2837-STC-00659.webp",
-    title: "Raymond Weil",
+    title: "Raymond",
   },
   {
     id: "1",

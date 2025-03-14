@@ -5,7 +5,7 @@ export { default as fredriqueLogo } from "././fredrique.svg";
 export { default as mauricoLogo } from "././maurice.png";
 export { default as caisoLogo } from "././caisoLogo.jpg";
 export { default as armandLogo } from "././armandLogo.png";
-// export { default as hamiltonLogo } from "./hamilton.png";
+export { default as hamiltonLogo } from "././hamilton.png";
 export { default as westLogo } from "././west.png";
 // export { default as bernhardLogo } from "./bernhard.webp";
 // export { default as tagHeuerLogo } from "./tagHeuer";

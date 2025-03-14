@@ -24,6 +24,8 @@ import { ToastContainer } from "react-toastify"; // Toastni qo'shamiz
 import "react-toastify/dist/ReactToastify.css"; // Toast stilini import qilamiz
 import Raymond from "../watchs/Raymond";
 import RaymondDetails from "../watchDetails/RaymondDetails";
+import Hamilton from "../watchs/Hamilton";
+import HamiltonDetails from "../watchDetails/HamiltonDetails";
 
 const App = () => {
   return (
@@ -62,6 +64,9 @@ const App = () => {
           {/* raymond */}
           <Route path="/raymond" element={<Raymond />} />
           <Route path="/raymond/:id" element={<RaymondDetails />} />
+          {/* Hamilton */}
+          <Route path="/hamilton" element={<Hamilton />} />
+          <Route path="/hamilton/:id" element={<HamiltonDetails />} />
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>

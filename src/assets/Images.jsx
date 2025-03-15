@@ -20,3 +20,4 @@ export { default as raymondLogo } from "././raymond.webp";
 // 8  march
 
 export { default as march2 } from "././forWomens2.webp";
+export { default as ramazon } from "././ramazon.webp";

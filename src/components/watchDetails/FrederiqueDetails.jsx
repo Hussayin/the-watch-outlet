@@ -177,6 +177,7 @@ const FrederiqueDetails = () => {
               {product.demoPrice}$
             </h1> */}
             <h1 className="font-nunito text-[35px]">{product.price}$</h1>
+            <h1 className="font-kanit text-[12px] uppercase">по курсу цб</h1>
           </div>
           <h1 className="text-[15px]">Ref: {product.rafcode}</h1>
         </motion.div>
@@ -469,7 +470,10 @@ const FrederiqueDetails = () => {
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">
-                      {watch.price} цб
+                      {watch.price}$
+                    </h1>
+                    <h1 className="font-kanit text-[12px] uppercase">
+                      по курсу цб
                     </h1>
                   </motion.div>
                 </div>

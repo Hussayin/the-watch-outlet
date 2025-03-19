@@ -150,7 +150,10 @@ const Raymond = () => {
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">
-                      {watch.price} цб
+                      {watch.price}$
+                    </h1>
+                    <h1 className="font-kanit text-[12px] uppercase">
+                      по курсу цб
                     </h1>
                   </motion.div>
                 </div>

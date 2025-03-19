@@ -142,7 +142,9 @@ const Hamilton = () => {
                     {/* <h1 className="line-through leading-3 opacity-80">
                       {watch.demoPrice}$
                     </h1> */}
-                    <h1 className="font-kanit text-[27px]">{watch.price}$</h1>
+                    <h1 className="font-kanit text-[27px] uppercase ">
+                      {watch.price} цб
+                    </h1>
                   </motion.div>
                 </div>
                 <motion.div

@@ -12,6 +12,52 @@ import {
   hamiltonLogo,
 } from "../../assets/Images";
 
+//! Bu watches
+export const OldWatches = [
+  {
+    id: 1,
+    img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121657.webp",
+    title: "All Watches",
+    brend: "Tissot",
+    price: 10000,
+  },
+  {
+    id: 2,
+    img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121752.webp",
+    title: "All Watches",
+    brend: "Tissot",
+    price: 20000,
+  },
+  {
+    id: 3,
+    img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121844.webp",
+    title: "Oris",
+    brend: "Oris",
+    price: 10000,
+  },
+  {
+    id: 4,
+    img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121934.webp",
+    title: "Rolex",
+    brend: "Rolex",
+    price: 100,
+  },
+  {
+    id: 5,
+    img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122132.webp",
+    title: "Hamilton",
+    brend: "Hamilton",
+    price: 300,
+  },
+  {
+    id: 6,
+    img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122419.webp",
+    title: "Hamilton",
+    brend: "Hamilton",
+    price: 500,
+  },
+];
+
 //! data for populor products
 export const PopulorWatch = [
   {

@@ -3,6 +3,7 @@ import MenuAll from "../App/MenuAll";
 import { FaChevronLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import AllProducts from "./AllProducts";
+import ImageGallery from "./ImageBar";
 
 const AllWatches = () => {
   return (
@@ -15,7 +16,8 @@ const AllWatches = () => {
           </h1>
         </Link>
       </div>
-      <div className=" flex justify-center text-[18px] items-center flex-col h-[80vh] gap-[30px] text-center px-[30px] ">
+      <ImageGallery />
+      {/* <div className=" flex justify-center text-[18px] items-center flex-col h-[80vh] gap-[30px] text-center px-[30px] ">
         <h1 className=" font-nunito ">
           Скоро здесь появится ваш идеальный магазин часов ⏳⌚. Мы тщательно
           подбираем лучшие модели от Tissot, Casio, Seiko, Longines, Frederique
@@ -25,7 +27,7 @@ const AllWatches = () => {
           🚀 Совсем скоро мы откроемся! Следите за обновлениями, и будьте
           первыми, кто увидит нашу коллекцию.
         </h1>
-      </div>
+      </div> */}
       <AllProducts />
       <MenuAll />
     </div>

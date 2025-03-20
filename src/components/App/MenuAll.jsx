@@ -27,7 +27,7 @@ const MenuAll = () => {
         to="/AllWatches"
         className="w-[100%] border-[1px] border-white rounded-[7px] py-[7px]"
       >
-        <h1>Все часы</h1>
+        <h1>Б/y</h1>
       </NavLink>
       {/* basket */}
       <NavLink

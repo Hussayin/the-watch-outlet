@@ -41,7 +41,6 @@ export default function ImageGallery() {
           "Rolex",
           "Rado",
           "Breguet",
-          "RADO",
           "Movado",
           "Breitling",
           "Maurice",
@@ -55,8 +54,13 @@ export default function ImageGallery() {
           "Cuervo",
           "Hamilton",
           "Perrelet",
+          "Edox",
           "Harry",
           "Martin",
+          "Aerowatch",
+          "ZENITH",
+          "Bulova",
+          "Louis",
           "Dubey",
         ].map((brand) => (
           <button

@@ -134,7 +134,7 @@ export default function ImageGallery() {
               onClick={() => setSelectedImage(null)}
             >
               <motion.div
-                className="relative bg-[#0e1629] w-[100%] mt-[30px] justify-center py-[18px] px-[14px] pt-[20px] rounded-lg shadow-lg"
+                className="relative bg-[#0e1629] w-[100%]  justify-center py-[18px] px-[14px] pt-[20px] rounded-lg shadow-lg"
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0.8 }}

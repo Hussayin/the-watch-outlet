@@ -1170,7 +1170,7 @@ export const PopulorWatch = [
     title: "PR516 CHRONOGRAPH",
     rafcode: "Raymon Weil Maestro",
     brend: "Raymond Weil",
-    price: "520",
+    price: "1100",
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Raymond-Weil/raymon-well-maestro-2837-STC-00659.webp",
   },
@@ -1182,7 +1182,7 @@ export const PopulorWatch = [
     title: "Raymon Well",
     rafcode: "Raymon Weil Maestro Moon Phase",
     brend: "Raymon Weil",
-    price: "520",
+    price: "1400",
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Raymond-Weil/raymond-weil-maestro-moon-phase-fronte-2837-STC-00659.webp",
   },

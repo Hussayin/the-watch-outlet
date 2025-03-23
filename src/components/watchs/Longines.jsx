@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { ProductContext } from "../context/ProductContext";
 import { TelegramContext } from "../context/TelegramContext";
 import MenuAll from "../App/MenuAll";
+import { MdDiscount } from "react-icons/md";
 
 const categories = [
   "All",
@@ -132,6 +133,7 @@ const Longines = () => {
                       alt="logo-brend"
                       className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg object-cover`}
                     />
+                    <MdDiscount className=" text-[30px] text-red-600 " />
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -50 }}
@@ -160,7 +162,7 @@ const Longines = () => {
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">
-                      {watch.price}$
+                      {`${watch.price - 150} `}$
                     </h1>
                     <h1 className="font-kanit text-[12px] uppercase">
                       по курсу цб

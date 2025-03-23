@@ -11,20 +11,11 @@ import { MdDiscount } from "react-icons/md";
 const categories = [
   "All",
   "Master",
-  //   "Master-chronograph",
-  //   "Master-moonphase",
-  //   "Master-gmt",
   "Conquest",
   "Conquest-classic",
-  //   "Concuest-chronograph",
   "Heritage",
   "La-grande-classique",
   "Hydroconquest",
-  //   "Hydroconquest-gmt",
-  //   "Spirit",
-  //   "Spirit-zulu-time",
-  //   "Spirit-flyback",
-  //   "Spirit-chronograph",
 ];
 
 const Longines = () => {

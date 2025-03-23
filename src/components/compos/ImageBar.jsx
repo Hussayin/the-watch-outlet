@@ -114,9 +114,9 @@ export default function ImageGallery() {
             />
             <h1 className=" text-[19px] font-nunito">{img.title}</h1>
             {/* price */}
-            <h1 className=" leading-4 text-[17px] font-nunito text-white">
+            {/* <h1 className=" leading-4 text-[17px] font-nunito text-white">
               {img.price}$
-            </h1>
+            </h1> */}
             {/* <h1>
               {currency === "USD"
                 ? `$${img.price}`
@@ -155,9 +155,9 @@ export default function ImageGallery() {
                   {selectedImage.title}
                 </h1>
                 {/* price */}
-                <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
+                {/* <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
                   Цена: {selectedImage.price}$
-                </h1>
+                </h1> */}
                 <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
                   Диаметр: {selectedImage.diometr}
                 </h1>

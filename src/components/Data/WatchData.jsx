@@ -19,7 +19,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121657.webp",
     title: "Ulysse Nardin",
     brend: "Ulysse",
-    price: 10000,
+    price: 4700,
     diometr: "42 mm",
   },
   {
@@ -27,7 +27,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121752.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 10000,
+    price: 2500,
     diometr: "41 mm",
   },
   {
@@ -35,7 +35,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121844.webp",
     title: "Baume Mercier",
     brend: "Baume",
-    price: 10000,
+    price: 1500,
     diometr: "42 mm",
   },
   {
@@ -43,7 +43,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_121934.webp",
     title: "Rolex",
     brend: "Rolex",
-    price: 10000,
+    price: 8500,
     diometr: "39 mm",
   },
   {
@@ -51,7 +51,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122132.webp",
     title: "Omega Seamaster",
     brend: "Omega",
-    price: 10000,
+    price: 4500,
     diometr: "42 mm",
   },
   {
@@ -59,7 +59,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122419.webp",
     title: "Breitling Super",
     brend: "Breitling",
-    price: 10000,
+    price: 2800,
     diometr: "42 mm",
   },
   {
@@ -67,7 +67,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122559.webp",
     title: "Frederique Constant",
     brend: "Frederique",
-    price: 10000,
+    price: 1100,
     diometr: "40 mm",
   },
   {
@@ -75,7 +75,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122710.webp",
     title: "Perrelet",
     brend: "Perrelet",
-    price: 10000,
+    price: 1300,
     diometr: "42 mm",
   },
   {
@@ -83,7 +83,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_122848.webp",
     title: "Breitling Avenger",
     brend: "Perrelet",
-    price: 10000,
+    price: 3000,
     diometr: "43 mm",
   },
   {
@@ -91,7 +91,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_123244.webp",
     title: "Dubey Schaldenbrand",
     brend: "Dubey Schaldenbrand",
-    price: 10000,
+    price: 2000,
     diometr: "33 mm",
   },
   {
@@ -99,7 +99,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_123439.webp",
     title: "TAG Heuer Carrera",
     brend: "TAG-Heuer",
-    price: 10000,
+    price: 2300,
     diometr: "41 mm",
   },
   {
@@ -107,7 +107,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_173901.webp",
     title: "Rado Integral",
     brend: "Rado",
-    price: 10000,
+    price: "продал",
     diometr: "31 x 41 mm",
   },
   {
@@ -115,7 +115,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174336.webp",
     title: "Breguet Marine",
     brend: "Breguet",
-    price: 10000,
+    price: 11000,
     diometr: "39 mm",
   },
   {
@@ -123,7 +123,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174523.webp",
     title: "RADO VINTAGE",
     brend: "Rado",
-    price: 10000,
+    price: 700,
     diometr: "36 mm",
   },
   {
@@ -131,7 +131,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174605.webp",
     title: "Movado Previously",
     brend: "Movado",
-    price: 10000,
+    price: "продал",
     diometr: "36 mm",
   },
   {
@@ -139,7 +139,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174822.webp",
     title: "Tag Heuer PreOwned",
     brend: "TAG-Heuer",
-    price: 10000,
+    price: 2500,
     diometr: "42 mm",
   },
   {
@@ -147,7 +147,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175138.webp",
     title: "Van Der Bauwede",
     brend: "TAG-Heuer",
-    price: 10000,
+    price: 1600,
     diometr: "40 mm",
   },
   {
@@ -155,7 +155,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175224.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 10000,
+    price: 800,
     diometr: "42 mm",
   },
   {
@@ -163,7 +163,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175427.webp",
     title: "Maurice Lacroix",
     brend: "Maurice",
-    price: 10000,
+    price: 1500,
     diometr: "43 mm",
   },
   {
@@ -171,7 +171,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175552.webp",
     title: "Omega Constellation",
     brend: "Omega",
-    price: 10000,
+    price: 1500,
     diometr: "33 mm",
   },
   {
@@ -179,7 +179,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175636.webp",
     title: "Omega Constellation",
     brend: "Omega",
-    price: 10000,
+    price: 1500,
     diometr: "33 mm",
   },
   {
@@ -187,7 +187,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175827.webp",
     title: "Seiko Grand",
     brend: "Seiko",
-    price: 10000,
+    price: 1600,
     diometr: "36 mm",
   },
   {
@@ -195,7 +195,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_175945.webp",
     title: "Rolex",
     brend: "Rolex",
-    price: 10000,
+    price: 5500,
     diometr: "39 mm",
   },
   {
@@ -203,7 +203,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_180145.webp",
     title: "Frederique",
     brend: "Frederique",
-    price: 10000,
+    price: 1500,
     diometr: "32 mm",
   },
   {
@@ -211,7 +211,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_180324.webp",
     title: "Bell Ross",
     brend: "Bell-Ross",
-    price: 10000,
+    price: 1800,
     diometr: "40 mm",
   },
   {
@@ -219,7 +219,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_180513.webp",
     title: "RADO",
     brend: "Rado",
-    price: 10000,
+    price: 600,
     diometr: "35 mm",
   },
   {
@@ -227,7 +227,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_180617.webp",
     title: "Omega",
     brend: "Omega",
-    price: 10000,
+    price: 1400,
     diometr: "36 mm",
   },
   {
@@ -235,7 +235,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_180911.webp",
     title: "Tissot",
     brend: "Tissot",
-    price: 10000,
+    price: 350,
     diometr: "42 mm",
   },
   {
@@ -243,7 +243,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_180950.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 10000,
+    price: 850,
     diometr: "35 x 45 mm",
   },
   {
@@ -251,7 +251,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_181123.webp",
     title: "Frederique",
     brend: "Frederique",
-    price: 10000,
+    price: 950,
     diometr: "43 mm",
   },
   {
@@ -259,7 +259,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_181327.webp",
     title: "RADO",
     brend: "Rado",
-    price: 10000,
+    price: 950,
     diometr: "40 mm",
   },
   {
@@ -267,7 +267,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_181444.webp",
     title: "Longines",
     brend: "Longines",
-    price: 10000,
+    price: 1700,
     diometr: "42 mm",
   },
   {
@@ -275,7 +275,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_181600.webp",
     title: "Montblanc",
     brend: "Montblanc",
-    price: 10000,
+    price: 1100,
     diometr: "42 mm",
   },
   {
@@ -283,7 +283,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_181707.webp",
     title: "Chopard",
     brend: "Chopard",
-    price: 10000,
+    price: 2700,
     diometr: "42 mm",
   },
   {
@@ -291,7 +291,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_181845.webp",
     title: "Chopard",
     brend: "Chopard",
-    price: 10000,
+    price: 3000,
     diometr: "42 mm",
   },
   {
@@ -299,7 +299,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_182029.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 10000,
+    price: 1600,
     diometr: "42 mm",
   },
   {
@@ -307,7 +307,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_182136.webp",
     title: "Cuervo",
     brend: "Cuervo",
-    price: 10000,
+    price: 2000,
     diometr: "32 mm",
   },
   {
@@ -315,7 +315,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_182257.webp",
     title: "Hamilton",
     brend: "Hamilton",
-    price: 10000,
+    price: продал,
     diometr: "41 mm",
   },
   {
@@ -323,7 +323,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_182332.webp",
     title: "Harry Winston",
     brend: "Harry Winston",
-    price: 32000,
+    price: 12000,
     diometr: "42 mm",
   },
   {
@@ -331,7 +331,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_182849.webp",
     title: "Longines Spirit",
     brend: "Longines",
-    price: 32000,
+    price: 2600,
     diometr: "42 mm",
   },
   {
@@ -339,15 +339,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250316_122758.webp",
     title: "Martin Braun",
     brend: "Martin",
-    price: 32000,
-    diometr: "42 mm",
-  },
-  {
-    id: 42,
-    img: "https://bekhruzwatch-data.netlify.app/webp/20250316_122758.webp",
-    title: "Martin Braun",
-    brend: "Martin",
-    price: 4000,
+    price: 7000,
     diometr: "42 mm",
   },
   {
@@ -355,7 +347,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250316_122920.webp",
     title: "Maurice LaCroix",
     brend: "Maurice",
-    price: 4000,
+    price: 600,
     diometr: "40 mm",
   },
   {
@@ -363,7 +355,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250316_123051.webp",
     title: "RADO",
     brend: "Rado",
-    price: 1500,
+    price: 950,
     diometr: "38 mm",
   },
   {

@@ -368,20 +368,6 @@ const FrederiqueDetails = () => {
             }}
             className=" text-[20px] flex gap-[13px] items-center "
           >
-            <h1>- Стекло:</h1>
-            <h1>{product.glass}</h1>
-          </motion.div>
-          {/*  */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              ease: "easeOut", // Easing funksiyasi
-              duration: 0.6, // Animatsiya davomiyligi
-              delay: 0.1,
-            }}
-            className=" text-[20px] flex gap-[13px] items-center "
-          >
             <h1>- Диаметр:</h1>
             <h1>{product.diameter}</h1>
           </motion.div>

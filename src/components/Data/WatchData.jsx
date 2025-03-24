@@ -20,7 +20,7 @@ export const OldWatches = [
     title: "Ulysse Nardin",
     brend: "Ulysse",
     price: 4700,
-    diometr: "42 mm",
+    diometr: "43 mm",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export const OldWatches = [
     title: "Rolex",
     brend: "Rolex",
     price: 8500,
-    diometr: "39 mm",
+    diometr: "36 mm",
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ export const OldWatches = [
     title: "Breitling Super",
     brend: "Breitling",
     price: 2800,
-    diometr: "42 mm",
+    diometr: "48 mm",
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ export const OldWatches = [
     title: "Frederique Constant",
     brend: "Frederique",
     price: 1100,
-    diometr: "40 mm",
+    diometr: "42 mm",
   },
   {
     id: 8,
@@ -76,7 +76,7 @@ export const OldWatches = [
     title: "Perrelet",
     brend: "Perrelet",
     price: 1300,
-    diometr: "42 mm",
+    diometr: "43 mm",
   },
   {
     id: 9,
@@ -92,7 +92,7 @@ export const OldWatches = [
     title: "Dubey Schaldenbrand",
     brend: "Dubey Schaldenbrand",
     price: 2000,
-    diometr: "33 mm",
+    diometr: "32 x 43 mm",
   },
   {
     id: 11,
@@ -124,20 +124,20 @@ export const OldWatches = [
     title: "RADO VINTAGE",
     brend: "Rado",
     price: 700,
-    diometr: "36 mm",
+    diometr: "38 mm",
   },
   {
     id: 15,
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174605.webp",
-    title: "Movado Previously",
+    title: "Movado",
     brend: "Movado",
     price: 1000,
-    diometr: "36 mm",
+    diometr: "37 mm",
   },
   {
     id: 16,
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174822.webp",
-    title: "Tag Heuer PreOwned",
+    title: "Tag Heuer",
     brend: "TAG-Heuer",
     price: 2500,
     diometr: "42 mm",
@@ -156,7 +156,7 @@ export const OldWatches = [
     title: "Raymond Weil",
     brend: "Raymond",
     price: 800,
-    diometr: "42 mm",
+    diometr: "43 mm",
   },
   {
     id: 19,
@@ -196,7 +196,7 @@ export const OldWatches = [
     title: "Rolex",
     brend: "Rolex",
     price: 5500,
-    diometr: "39 mm",
+    diometr: "36 mm",
   },
   {
     id: 24,
@@ -204,7 +204,7 @@ export const OldWatches = [
     title: "Frederique",
     brend: "Frederique",
     price: 1500,
-    diometr: "32 mm",
+    diometr: "42 mm",
   },
   {
     id: 25,
@@ -212,7 +212,7 @@ export const OldWatches = [
     title: "Bell Ross",
     brend: "Bell-Ross",
     price: 1800,
-    diometr: "40 mm",
+    diometr: "38 mm",
   },
   {
     id: 26,
@@ -228,7 +228,7 @@ export const OldWatches = [
     title: "Omega",
     brend: "Omega",
     price: 1400,
-    diometr: "36 mm",
+    diometr: "33 mm",
   },
   {
     id: 28,
@@ -236,7 +236,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 350,
-    diometr: "42 mm",
+    diometr: "40 mm",
   },
   {
     id: 29,
@@ -276,7 +276,7 @@ export const OldWatches = [
     title: "Montblanc",
     brend: "Montblanc",
     price: 1100,
-    diometr: "42 mm",
+    diometr: "39 mm",
   },
   {
     id: 34,
@@ -308,7 +308,7 @@ export const OldWatches = [
     title: "Cuervo",
     brend: "Cuervo",
     price: 2000,
-    diometr: "32 mm",
+    diometr: "47 x 37 mm",
   },
   {
     id: 38,
@@ -316,7 +316,7 @@ export const OldWatches = [
     title: "Hamilton",
     brend: "Hamilton",
     price: 1000,
-    diometr: "41 mm",
+    diometr: "42 mm",
   },
   {
     id: 39,
@@ -324,7 +324,7 @@ export const OldWatches = [
     title: "Harry Winston",
     brend: "Harry Winston",
     price: 12000,
-    diometr: "42 mm",
+    diometr: "40 x 45 mm",
   },
   {
     id: 40,
@@ -372,7 +372,7 @@ export const OldWatches = [
     title: "RADO",
     brend: "Rado",
     price: 3000,
-    diometr: "36 mm",
+    diometr: "39 х 46 мм",
   },
   {
     id: 47,
@@ -404,7 +404,7 @@ export const OldWatches = [
     title: "FENDI",
     brend: "FENDI",
     price: 3000,
-    diometr: "36 mm",
+    diometr: "42 x 38 mm",
   },
   {
     id: 51,
@@ -420,7 +420,7 @@ export const OldWatches = [
     title: "Aerowatch",
     brend: "Aerowatch",
     price: 3000,
-    diometr: "37 x 39 mm",
+    diometr: "36.50mm x 39.00mm",
   },
   {
     id: 53,
@@ -436,7 +436,7 @@ export const OldWatches = [
     title: "Longines",
     brend: "Longines",
     price: 1500,
-    diometr: "42 mm",
+    diometr: "41 mm",
   },
   {
     id: 54,
@@ -454,14 +454,14 @@ export const OldWatches = [
     price: 3000,
     diometr: "38 x 40 mm",
   },
-  {
-    id: 56,
-    img: "https://bekhruzwatch-data.netlify.app/webp/20250316_125709.webp",
-    title: "Tissot",
-    brend: "Tissot",
-    price: 3000,
-    diometr: "42 mm",
-  },
+  // {
+  //   id: 56,
+  //   img: "https://bekhruzwatch-data.netlify.app/webp/20250316_125709.webp",
+  //   title: "Tissot",
+  //   brend: "Tissot",
+  //   price: 3000,
+  //   diometr: "42 mm",
+  // },
   {
     id: 57,
     img: "https://bekhruzwatch-data.netlify.app/webp/20250316_142506.webp",
@@ -477,14 +477,6 @@ export const OldWatches = [
     brend: "Longines",
     price: 1500,
     diometr: "40 mm",
-  },
-  {
-    id: 59,
-    img: "https://bekhruzwatch-data.netlify.app/webp/20250316_142711.webp",
-    title: "ZENITH",
-    brend: "ZENITH",
-    price: 1500,
-    diometr: "35 mm",
   },
   {
     id: 60,
@@ -508,7 +500,7 @@ export const OldWatches = [
     title: "Maurice Lacroix",
     brend: "Maurice",
     price: 1500,
-    diometr: "40 mm",
+    diometr: "38 mm",
   },
   {
     id: 63,
@@ -516,7 +508,7 @@ export const OldWatches = [
     title: "Longines",
     brend: "Longines",
     price: 1500,
-    diometr: "36 mm",
+    diometr: "37 mm",
   },
   {
     id: 64,
@@ -540,7 +532,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "37 x 37 mm",
+    diometr: "41 mm",
   },
   {
     id: 67,
@@ -548,7 +540,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "39 mm",
   },
   {
     id: 68,
@@ -564,7 +556,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "42 mm",
   },
   {
     id: 70,
@@ -572,7 +564,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "42 mm",
   },
   {
     id: 71,
@@ -588,7 +580,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "42 mm",
   },
   {
     id: 73,
@@ -596,7 +588,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "44 mm",
   },
   {
     id: 74,
@@ -604,7 +596,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "39 mm",
   },
   {
     id: 75,
@@ -612,7 +604,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "42 mm",
   },
   {
     id: 76,
@@ -620,7 +612,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "40 mm",
   },
   {
     id: 77,
@@ -628,7 +620,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "40 mm",
   },
   {
     id: 78,
@@ -636,7 +628,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "40 mm",
   },
   {
     id: 79,
@@ -644,7 +636,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "39 mm",
   },
   {
     id: 80,
@@ -652,7 +644,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "40 mm",
   },
   {
     id: 81,
@@ -660,7 +652,7 @@ export const OldWatches = [
     title: "Tissot",
     brend: "Tissot",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "35 mm",
   },
   {
     id: 82,
@@ -668,7 +660,7 @@ export const OldWatches = [
     title: "Louis Erard",
     brend: "Louis",
     price: 1500,
-    diometr: "41 mm",
+    diometr: "40 mm",
   },
   {
     id: 84,

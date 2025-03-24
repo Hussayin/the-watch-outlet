@@ -164,16 +164,16 @@ export default function ImageGallery() {
                   Диаметр: {selectedImage.diometr}
                 </h1>
                 <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
-                  Гарантия: 3 Года
+                  Гарантия: 1 Года
                 </h1>
                 <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
-                  Состояние: Xороше, Original
+                  Состояние: C пробегом
                 </h1>
                 <div className="w-[100%] mt-[15px] flex justify-center items-center ">
                   <a
                     href="https://t.me/Bekhruz777"
                     target="_blank"
-                    className=" text-[22px] p-[5px] border-[2px]  bg-green-600 rounded-[10px] border-black w-[50%] text-center "
+                    className=" text-[20px] p-[5px] border-[2px]  bg-green-600 rounded-[10px] border-black w-[50%] text-center "
                   >
                     Kупить
                   </a>

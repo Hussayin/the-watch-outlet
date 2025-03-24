@@ -107,7 +107,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_173901.webp",
     title: "Rado Integral",
     brend: "Rado",
-    price: "продал",
+    price: 1000,
     diometr: "31 x 41 mm",
   },
   {
@@ -131,7 +131,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_174605.webp",
     title: "Movado Previously",
     brend: "Movado",
-    price: "продал",
+    price: 1000,
     diometr: "36 mm",
   },
   {
@@ -315,7 +315,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_182257.webp",
     title: "Hamilton",
     brend: "Hamilton",
-    price: продал,
+    price: 1000,
     diometr: "41 mm",
   },
   {

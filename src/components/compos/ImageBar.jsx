@@ -102,7 +102,7 @@ export default function ImageGallery() {
         {filteredImages.map((img, index) => (
           <div
             key={img.id}
-            className=" mb-[8px] bg-[#0d1d33] p-[8px] rounded-lg "
+            className=" mb-[8px] bg-[#0d1d33] p-[8px] flex flex-col gap-[10px] rounded-lg "
           >
             <motion.img
               src={img.img}
@@ -112,16 +112,18 @@ export default function ImageGallery() {
               whileTap={{ scale: 0.95 }}
               onClick={() => setSelectedImage(img)}
             />
-            <h1 className=" text-[19px] font-nunito">{img.title}</h1>
-            {/* price */}
-            {/* <h1 className=" leading-4 text-[17px] font-nunito text-white">
-              {img.price}$
-            </h1> */}
-            {/* <h1>
+            <div>
+              <h1 className=" text-[18px] font-nunito">{img.title}</h1>
+              {/* price */}
+              <h1 className=" leading-4 text-[17px] font-nunito text-white">
+                {img.price}$
+              </h1>
+              {/* <h1>
               {currency === "USD"
                 ? `$${img.price}`
                 : `${img.price * exchangeRate} UZS`}
             </h1> */}
+            </div>
           </div>
         ))}
         <AnimatePresence>
@@ -155,9 +157,9 @@ export default function ImageGallery() {
                   {selectedImage.title}
                 </h1>
                 {/* price */}
-                {/* <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
+                <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
                   Цена: {selectedImage.price}$
-                </h1> */}
+                </h1>
                 <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
                   Диаметр: {selectedImage.diometr}
                 </h1>

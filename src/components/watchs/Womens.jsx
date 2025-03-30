@@ -166,7 +166,7 @@ const Womens = () => {
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">
-                      {`${products.price - 130} `}$
+                      {`${watch.price - 100} `}$
                     </h1>
                     <h1 className="font-kanit text-[12px] uppercase">
                       по курсу цб

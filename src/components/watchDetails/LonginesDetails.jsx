@@ -177,7 +177,7 @@ const LonginesDetails = () => {
               {product.demoPrice}$
             </h1> */}
             <h1 className="font-nunito text-[35px] uppercase ">
-              {product.price}$
+              {`${product.price - 150} `}$
             </h1>
             <h1 className="font-kanit text-[12px] uppercase">по курсу цб</h1>
           </div>

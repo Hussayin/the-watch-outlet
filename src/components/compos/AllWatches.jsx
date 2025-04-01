@@ -17,18 +17,8 @@ const AllWatches = () => {
         </Link>
       </div>
       <ImageGallery />
-      {/* <div className=" flex justify-center text-[18px] items-center flex-col h-[80vh] gap-[30px] text-center px-[30px] ">
-        <h1 className=" font-nunito ">
-          Скоро здесь появится ваш идеальный магазин часов ⏳⌚. Мы тщательно
-          подбираем лучшие модели от Tissot, Casio, Seiko, Longines, Frederique
-          Constant и Rolex и другие.
-        </h1>
-        <h1 className="font-nunito">
-          🚀 Совсем скоро мы откроемся! Следите за обновлениями, и будьте
-          первыми, кто увидит нашу коллекцию.
-        </h1>
-      </div> */}
-      <AllProducts />
+
+      {/* <AllProducts /> */}
       <MenuAll />
     </div>
   );

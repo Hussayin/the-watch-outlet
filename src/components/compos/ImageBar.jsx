@@ -14,6 +14,8 @@ export default function ImageGallery() {
   const [currency, setCurrency] = useState("USD");
   const exchangeRate = 12000; // USD to UZS
 
+  const [isLoaded, setIsLoaded] = useState(false);
+
   useEffect(() => {
     document.body.style.overflow = selectedImage ? "hidden" : "auto";
     return () => {
@@ -102,12 +104,17 @@ export default function ImageGallery() {
         {filteredImages.map((img, index) => (
           <div
             key={img.id}
-            className=" mb-[8px] bg-[#0d1d33] p-[8px] flex flex-col gap-[10px] rounded-lg "
+            className={`mb-[8px] bg-[#0d1d33] p-[8px] flex flex-col gap-[10px] rounded-lg transition-all duration-500 ${
+              isLoaded ? "blur-0 bg-[#0d1d33]" : "blur-md bg-[#112544] "
+            }`}
           >
             <motion.img
               src={img.img}
               alt={`Image ${index}`}
-              className="cursor-pointer rounded-lg shadow-md w-[100%] object-cover h-[200px]"
+              className={`cursor-pointer rounded-lg shadow-md w-[100%] object-cover h-[200px] transition-all duration-500 ${
+                isLoaded ? "blur-0" : "blur-md"
+              }`}
+              onLoad={() => setIsLoaded(true)} // Rasm yuklanganda blur yo'qoladi
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setSelectedImage(img)}

@@ -1,5 +1,23 @@
-// src/GoogleTag.jsx
 import { useEffect } from "react";
+
+// 💡 Konversiya funksiyasi komponentdan tashqarida bo'lishi kerak
+export function gtag_report_conversion(url) {
+  const callback = function () {
+    if (typeof url !== "undefined") {
+      window.location = url;
+    }
+  };
+
+  window.gtag("event", "conversion", {
+    send_to: "AW-16971943809/ofiRC1jFhMzEIGFZ7e",
+    value: 1.0,
+    currency: "USD",
+    transaction_id: "",
+    event_callback: callback,
+  });
+
+  return false;
+}
 
 const GoogleTag = () => {
   useEffect(() => {

@@ -7,9 +7,11 @@ import ProductProvider from "./components/context/ProductContext.jsx";
 import DetailProvider from "./components/context/DetailContext.jsx";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import BasketProvider from "./components/context/BasketContext.jsx";
+import GoogleTag from "./GoogleTag.jsx";
 
 createRoot(document.getElementById("root")).render(
   <ThemeProvider>
+    <GoogleTag /> {/* <-- shu yerga qo‘shamiz */}
     <BasketProvider>
       <DetailProvider>
         <TelegramProvider>

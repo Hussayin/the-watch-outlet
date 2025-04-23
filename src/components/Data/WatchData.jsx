@@ -1092,7 +1092,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_172822.webp",
     title: "Maurice Lacroix",
     brend: "Maurice",
-    price: 100,
+    price: 300,
     diometr: "40 mm",
   },
   {

@@ -124,7 +124,7 @@ const Longines = () => {
                       alt="logo-brend"
                       className={`${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg object-cover`}
                     />
-                    <MdDiscount className=" text-[30px] text-red-600 " />
+                    {/* <MdDiscount className=" text-[30px] text-red-600 " /> */}
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, x: -50 }}

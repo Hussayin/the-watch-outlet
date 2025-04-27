@@ -160,7 +160,7 @@ const WomensDetails = () => {
             <img
               src={product.mainImage}
               alt=""
-              className="md:h-[300px] h-[320px]"
+              className="md:h-[300px] h-[350px]"
             />
           </motion.div>
         </div>

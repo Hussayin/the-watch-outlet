@@ -103,7 +103,7 @@ const HamiltonDetails = () => {
       </motion.div>
 
       {/* Product details */}
-      <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
+      <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[15px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
         <div className="flex gap-[5px] justify-between items-center">
           <motion.img
@@ -164,7 +164,7 @@ const HamiltonDetails = () => {
             <img
               src={product.mainImage}
               alt=""
-              className="md:h-[300px] h-[320px]"
+              className="md:h-[300px] h-[350px]"
             />
           </motion.div>
         </div>

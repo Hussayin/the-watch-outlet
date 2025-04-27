@@ -99,9 +99,10 @@ const FrederiqueDetails = () => {
       </motion.div>
 
       {/* Product details */}
-      <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
+      <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[15px] h-[auto] justify-between border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
-        <div className="flex gap-[5px] pt-[10px] justify-between items-center">
+        <div className="flex gap-[15px] pt-[10px] justify-between flex-col items-center">
+          <div className=" flex justify-between w-[100%]" >
           <motion.img
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -124,9 +125,9 @@ const FrederiqueDetails = () => {
               <MdAddShoppingCart />
             </button>
           </motion.div>
-        </div>
+          </div>
 
-        {/* Title */}
+          {/* Title */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -145,6 +146,8 @@ const FrederiqueDetails = () => {
           </h1>
         </motion.div>
 
+        </div>
+
         {/* Images */}
         <div className="flex my-[20px] flex-col gap-[30px] justify-center items-center w-[100%]">
           {/* Main image */}
@@ -160,7 +163,7 @@ const FrederiqueDetails = () => {
             <img
               src={product.mainImage}
               alt=""
-              className="md:h-[300px] h-[320px]"
+              className="md:h-[300px] h-[350px]"
             />
           </motion.div>
         </div>

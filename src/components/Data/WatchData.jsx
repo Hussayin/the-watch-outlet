@@ -7941,7 +7941,7 @@ export const AllWatchs = {
         "https://bekhruzwatch-data.netlify.app/longines-web/loninges-L37184569.webp",
       production: "Швейцария",
       rafcode: "L-37184569",
-      demoPrice: `1200`,
+      demoPrice: `1350`,
       price: "1200",
       guarantee: "2 Года",
       status: "Новые",   

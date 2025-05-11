@@ -7942,7 +7942,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "L-37184569",
       demoPrice: `1350`,
-      price: "1200",
+      price: "1350",
       guarantee: "2 Года",
       status: "Новые",   
       year: 2024,

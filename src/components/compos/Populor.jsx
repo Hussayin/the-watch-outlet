@@ -35,12 +35,12 @@ const Populor = () => {
                       duration: 1, // Animatsiya davomiyligi
                       delay: 0.1,
                     }}
-                    className=" flex gap-[10px] items-center "
+                    className={ ` flex gap-[10px] items-center`}
                   >
                     <img
                       src={watch.logo}
                       alt="logo-brend"
-                      className={` ${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg object-cover`}
+                      className={` ${watch.bg} ${watch.logoWidth} ${watch.logoColor} ${watch.logoPa} rounded-lg object-cover`}
                     />
                   </motion.div>
                   {/* title */}

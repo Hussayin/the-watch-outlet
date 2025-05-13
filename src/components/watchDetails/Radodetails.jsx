@@ -14,7 +14,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Stilni import qilish
 import { BasketContext } from "../context/BasketContext";
 
-const WomensDetails = () => {
+const RadoDetailes = () => {
   const { products } = useContext(DetailContext);
   const { id } = useParams();
   const { sendToTelegram } = useContext(TelegramContext);
@@ -42,18 +42,22 @@ const WomensDetails = () => {
   };
 
   // Ehtiyot chorasi: `products` va `Tissot` mavjudligini tekshirish
-  const product = products?.Womens?.find(
+  const product = products?.Rado?.find(
     (watch) => String(watch.id) === String(id)
   );
 
   if (!product) {
-    return <div>Mahsulot topilmadi!</div>;
+    return (
+      <div className=" flex justify-center items-center text-center h-[100%] w-[100%] ">
+        Mahsulot topilmadi!
+      </div>
+    );
   }
 
   return (
     <div>
       <div className="fixed w-[100%] top-0 z-[10000000] dark:bg-white dark:border-black bg-[#0f192b] border-[#cecccc85] border-solid border-b-[1px] p-[15px] px-[20px]">
-        <Link to="/womens">
+        <Link to="/rado">
           <h1 className="flex items-center gap-[2px] font-bold font-nunito text-[17px]">
             <FaChevronLeft className="text-[25px]  " /> назад
           </h1>
@@ -101,14 +105,14 @@ const WomensDetails = () => {
       {/* Product details */}
       <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
-        <div className="flex pt-[10px] gap-[5px] justify-between items-center">
+        <div className="flex gap-[5px] justify-between items-center">
           <motion.img
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1.5 }}
             src={product.logo}
             alt="logo-brend"
-            className="rounded-lg w-[100px] bg-white text-center object-cover p-[3px] "
+            className="rounded-lg bg-white w-[90px] text-center object-cover"
           />
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -173,8 +177,11 @@ const WomensDetails = () => {
           className="flex items-center justify-between"
         >
           <div>
-            <h1 className="font-nunito text-[35px] uppercase">
-              {`${product.price - 100} `}$
+            {/* <h1 className="line-through opacity-55 leading-5 text-[20px]">
+              {product.demoPrice}$
+            </h1> */}
+            <h1 className="font-nunito text-[35px] uppercase ">
+              {product.price}$
             </h1>
             <h1 className="font-kanit text-[12px] uppercase">по курсу цб</h1>
           </div>
@@ -286,6 +293,21 @@ const WomensDetails = () => {
             <h1>- Ремешок:</h1>
             <h1>{product.bracelet}</h1>
           </motion.div>
+          {/*  */}
+          {/* <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              ease: "easeOut", // Easing funksiyasi
+              duration: 0.6, // Animatsiya davomiyligi
+              delay: 0.1,
+            }}
+            className=" text-[20px] flex gap-[13px] items-center "
+          >
+            <h1>- Год выпуска:</h1>
+            <h1>{product.year}</h1>
+          </motion.div> */}
+          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -352,20 +374,6 @@ const WomensDetails = () => {
             }}
             className=" text-[20px] flex gap-[13px] items-center "
           >
-            <h1>- Стекло:</h1>
-            <h1>{product.glass}</h1>
-          </motion.div>
-          {/*  */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              ease: "easeOut", // Easing funksiyasi
-              duration: 0.6, // Animatsiya davomiyligi
-              delay: 0.1,
-            }}
-            className=" text-[20px] flex gap-[13px] items-center "
-          >
             <h1>- Диаметр:</h1>
             <h1>{product.diameter}</h1>
           </motion.div>
@@ -388,7 +396,7 @@ const WomensDetails = () => {
         </motion.h1>
         {/* similar products */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]  p-[5px]">
-          {products?.Womens.filter(
+          {products?.Rado.filter(
             (item) =>
               item.categori === product.categori && item.id !== product.id
           ).map((watch) => (
@@ -436,7 +444,7 @@ const WomensDetails = () => {
                     }}
                   >
                     <h1 className="text-[19px] leading-6 uppercase font-bold font-nunito ">
-                      {watch.brend}
+                      {watch.title}
                     </h1>
                     <h1 className=" text-[12px]">{watch.rafcode}</h1>
                   </motion.div>
@@ -486,4 +494,4 @@ const WomensDetails = () => {
   );
 };
 
-export default WomensDetails;
+export default RadoDetailes;

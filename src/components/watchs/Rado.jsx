@@ -9,14 +9,9 @@ import MenuAll from "../App/MenuAll";
 
 const categories = [
   "All",
-  "Maestro",
-  "Parsifal",
-  "Freelancer",
-  "Toccata",
-  "Tango",
 ];
 
-const Raymond = () => {
+const Rado = () => {
   const { sendToTelegram } = useContext(TelegramContext);
   const { products, loading } = useContext(ProductContext);
 
@@ -29,7 +24,7 @@ const Raymond = () => {
   if (!products?.Raymond || products.Raymond.length === 0)
     return <div>Maurice mahsulotlari topilmadi.</div>;
 
-  const filteredProducts = products?.Raymond?.filter((watch) => {
+  const filteredProducts = products?.Rado?.filter((watch) => {
     const productPrice = Number(watch.price) || 0;
     return (
       (activeCategory === "All" ||
@@ -182,4 +177,4 @@ const Raymond = () => {
   );
 };
 
-export default Raymond;
+export default Rado;

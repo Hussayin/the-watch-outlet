@@ -94,7 +94,7 @@ const Rado = () => {
       <div className="mt-[10px] mb-[85px] grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[8px] w-[97%] m-auto">
         {filteredProducts.map((watch) => (
           <div onClick={() => handleProductClick(watch)} key={watch.id}>
-            <Link to={`/raymond/${watch.id}`}>
+            <Link to={`/rado/${watch.id}`}>
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

@@ -11,7 +11,7 @@ const categories = [
   "All",
 ];
 
-const Rado = () => {
+const Montblanc = () => {
   const { sendToTelegram } = useContext(TelegramContext);
   const { products, loading } = useContext(ProductContext);
 
@@ -21,10 +21,10 @@ const Rado = () => {
   const [openFilter, setOpenFilter] = useState(false);
 
   if (loading) return <div>Ma'lumotlar yuklanmoqda...</div>;
-  if (!products?.Rado || products.Rado.length === 0)
+  if (!products?.Montblanc || products.Montblanc.length === 0)
     return <div>Maurice mahsulotlari topilmadi.</div>;
 
-  const filteredProducts = products?.Rado?.filter((watch) => {
+  const filteredProducts = products?.Montblanc?.filter((watch) => {
     const productPrice = Number(watch.price) || 0;
     return (
       (activeCategory === "All" ||
@@ -94,7 +94,7 @@ const Rado = () => {
       <div className="mt-[10px] mb-[85px] grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[8px] w-[97%] m-auto">
         {filteredProducts.map((watch) => (
           <div onClick={() => handleProductClick(watch)} key={watch.id}>
-            <Link to={`/rado/${watch.id}`}>
+            <Link to={`/montblanc/${watch.id}`}>
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -177,4 +177,4 @@ const Rado = () => {
   );
 };
 
-export default Rado;
+export default Montblanc;

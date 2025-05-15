@@ -112,7 +112,7 @@ const MoncblancDetailes = () => {
             transition={{ ease: "easeOut", duration: 1.5 }}
             src={product.logo}
             alt="logo-brend"
-            className="rounded-lg bg-white w-[90px] text-center object-cover"
+            className="rounded-lg bg-white p-[10px] w-[120px] text-center object-cover"
           />
           <motion.div
             initial={{ opacity: 0, x: 50 }}

@@ -1149,7 +1149,7 @@ export const PopulorWatch = [
     title: "Rado",
     rafcode: "HyperChrome",
     brend: "Rado",
-    price: "1100",
+    price: "0",
     mainImage:
       "https://watch-base-work.netlify.app/watches/rado-R32502203.webp",
   },
@@ -1163,7 +1163,7 @@ export const PopulorWatch = [
     rafcode: "Montblanc Star Legacy",
     logoPa: "p-[10px]",
     brend: "Mont Blanc",
-    price: "1100",
+    price: "0",
     mainImage:
       "https://watch-base-work.netlify.app/watches/montblank-MB130956.webp",
   },
@@ -1175,7 +1175,7 @@ export const PopulorWatch = [
     title: "PR516 CHRONOGRAPH",
     rafcode: "Raymon Weil Maestro",
     brend: "Raymond Weil",
-    price: "1100",
+    price: "0",
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Raymond-Weil/raymon-well-maestro-2837-STC-00659.webp",
   },
@@ -1187,7 +1187,7 @@ export const PopulorWatch = [
     title: "Raymon Well",
     rafcode: "Raymon Weil Maestro Moon Phase",
     brend: "Raymon Weil",
-    price: "1400",
+    price: "0",
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Raymond-Weil/raymond-weil-maestro-moon-phase-fronte-2837-STC-00659.webp",
   },

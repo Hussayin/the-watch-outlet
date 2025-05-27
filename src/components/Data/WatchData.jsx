@@ -19,7 +19,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837144_y.webp",
     title: "Tissot",
     brend: "Tissot",
-    price: 700,
+    // price: 700,
     diometr: "40 mm",
   },
   {
@@ -27,7 +27,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837143_y.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 700,
+    // price: 700,
     diometr: "34 mm",
   },
   {
@@ -35,7 +35,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837141_y.webp",
     title: "Perrelet",
     brend: "Perrelet",
-    price: 2700,
+    // price: 2700,
     diometr: "43 mm",
   },
   {
@@ -43,7 +43,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837140_y.webp",
     title: "Jacob and Co",
     brend: "Longines",
-    price: 5000,
+    // price: 5000,
     diometr: "42 mm",
   },
   {
@@ -51,7 +51,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837138_y.webp",
     title: "Longines",
     brend: "Longines",
-    price: 700,
+    // price: 700,
     diometr: "34 mm",
   },
   {
@@ -59,7 +59,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837137_y.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 2700,
+    // price: 2700,
     diometr: "43 mm",
   },
   {
@@ -67,7 +67,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837136_y.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 950,
+    // price: 950,
     diometr: "43 mm",
   },
   {
@@ -75,7 +75,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837135_y.webp",
     title: "Luminor",
     brend: "Luminor",
-    price: 950,
+    // price: 950,
     diometr: "46 mm",
   },
   {
@@ -83,7 +83,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837134_y.webp",
     title: "Tudor",
     brend: "Tudor",
-    price: 950,
+    // price: 950,
     diometr: "42 mm",
   },
   {
@@ -91,7 +91,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837133_y.webp",
     title: "Oris",
     brend: "Oris",
-    price: 950,
+    // price: 950,
     diometr: "42 mm",
   },
   {
@@ -99,7 +99,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837132_y.webp",
     title: "Tissot",
     brend: "Tissot",
-    price: 950,
+    // price: 950,
     diometr: "44 mm",
   },
   {
@@ -107,7 +107,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837130_y.webp",
     title: "Maurice Lacroix",
     brend: "Maurice-lacroix",
-    price: 950,
+    // price: 950,
     diometr: "42 mm",
   },
   {
@@ -115,7 +115,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837129_y.webp",
     title: "Girard-Perregaux",
     brend: "Girard",
-    price: 950,
+    // price: 950,
     diometr: "41 mm",
   },
   {
@@ -123,7 +123,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837128_y.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 950,
+    // price: 950,
     diometr: "43 mm",
   },
   {
@@ -131,7 +131,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837127_y.webp",
     title: "Longines",
     brend: "Longines",
-    price: 750,
+    // price: 750,
     diometr: "24 mm",
   },
   {
@@ -139,7 +139,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837126_y.webp",
     title: "Longines",
     brend: "Longines",
-    price: 750,
+    // price: 750,
     diometr: "24 mm",
   },
   {
@@ -147,7 +147,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837125_y.webp",
     title: "Longines",
     brend: "Longines",
-    price: 750,
+    // price: 950,
     diometr: "36 mm",
   },
   {
@@ -155,7 +155,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837124_y.webp",
     title: "Raymond Weil",
     brend: "Raymond",
-    price: 650,
+    // price: 650,
     diometr: "35 mm",
   },
   {
@@ -163,7 +163,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837123_y.webp",
     title: "Baume Mercier",
     brend: "Baume",
-    price: 350,
+    // price: 350,
     diometr: "43 mm",
   },
   {
@@ -171,7 +171,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837122_y.webp",
     title: "Orient",
     brend: "Tissot",
-    price: 350,
+    // price: 350,
     diometr: "42 mm",
   },
   {
@@ -179,7 +179,7 @@ export const OldWatches = [
     img: "https://watch-base-work.netlify.app/buwatchs/photo_5310132724385837121_y.webp",
     title: "Orient",
     brend: "Orient",
-    price: 150,
+    // price: 150,
     diometr: "42 mm",
   },
   {

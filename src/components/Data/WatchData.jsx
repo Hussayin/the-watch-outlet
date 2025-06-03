@@ -1564,7 +1564,7 @@ export const PopulorWatch = [
     title: "Rolex",
     rafcode: "EL-1094SS0016505",
     demoPrice: "1100",
-    price: "850",
+    price: "14.000",
     brend: "Rolex",
     mainImage: "https://bekhruzwatch-data.netlify.app/Rolex/m126334-0026.webp",
   },
@@ -1578,7 +1578,7 @@ export const PopulorWatch = [
     title: "Rolex",
     rafcode: "AI-6008SS00F630D",
     demoPrice: "1100",
-    price: "2000",
+    price: "15.000",
     brend: "Rolex",
     mainImage:
       "https://bekhruzwatch-data.netlify.app/Rolex/rolex-submoriner-R-126610LN.webp",

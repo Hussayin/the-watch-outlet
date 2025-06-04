@@ -164,7 +164,7 @@ const RaymondDetails = () => {
             <img
               src={product.mainImage}
               alt=""
-              className="md:h-[300px] h-[320px]"
+              className="md:h-[300px] h-[350px]"
             />
           </motion.div>
         </div>
@@ -180,9 +180,9 @@ const RaymondDetails = () => {
             {/* <h1 className="line-through opacity-55 leading-5 text-[20px]">
               {product.demoPrice}$
             </h1> */}
-            <h1 className="font-nunito text-[35px] uppercase ">
+            {/* <h1 className="font-nunito text-[35px] uppercase ">
               {product.price}$
-            </h1>
+            </h1> */}
             <h1 className="font-kanit text-[12px] uppercase">по курсу цб</h1>
           </div>
           <h1 className="text-[15px]">Ref: {product.rafcode}</h1>

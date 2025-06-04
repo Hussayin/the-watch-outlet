@@ -14,7 +14,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Stilni import qilish
 import { BasketContext } from "../context/BasketContext";
 
-const FrederiqueDetails = () => {
+const MoncblancDetailes = () => {
   const { products } = useContext(DetailContext);
   const { id } = useParams();
   const { sendToTelegram } = useContext(TelegramContext);
@@ -42,18 +42,22 @@ const FrederiqueDetails = () => {
   };
 
   // Ehtiyot chorasi: `products` va `Tissot` mavjudligini tekshirish
-  const product = products?.Frederique?.find(
+  const product = products?.Montblanc?.find(
     (watch) => String(watch.id) === String(id)
   );
 
   if (!product) {
-    return <div>Mahsulot topilmadi!</div>;
+    return (
+      <div className=" flex justify-center items-center text-center h-[100%] w-[100%] ">
+        Mahsulot topilmadi!
+      </div>
+    );
   }
 
   return (
     <div>
       <div className="fixed w-[100%] top-0 z-[10000000] dark:bg-white dark:border-black bg-[#0f192b] border-[#cecccc85] border-solid border-b-[1px] p-[15px] px-[20px]">
-        <Link to="/frederique">
+        <Link to="/montblanc">
           <h1 className="flex items-center gap-[2px] font-bold font-nunito text-[17px]">
             <FaChevronLeft className="text-[25px]  " /> назад
           </h1>
@@ -99,17 +103,16 @@ const FrederiqueDetails = () => {
       </motion.div>
 
       {/* Product details */}
-      <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[15px] h-[auto] justify-between border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
+      <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[17px] h-auto justify-center border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
-        <div className="flex gap-[15px] pt-[10px] justify-between flex-col items-center">
-          <div className=" flex justify-between w-[100%]" >
+        <div className="flex gap-[5px] justify-between items-center">
           <motion.img
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1.5 }}
             src={product.logo}
             alt="logo-brend"
-            className="rounded-lg bg-white w-[100px] p-[7px] text-center object-cover"
+            className="rounded-lg bg-white p-[10px] w-[120px] text-center object-cover"
           />
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -125,9 +128,9 @@ const FrederiqueDetails = () => {
               <MdAddShoppingCart />
             </button>
           </motion.div>
-          </div>
+        </div>
 
-          {/* Title */}
+        {/* Title */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -145,8 +148,6 @@ const FrederiqueDetails = () => {
             {product.production}
           </h1>
         </motion.div>
-
-        </div>
 
         {/* Images */}
         <div className="flex my-[20px] flex-col gap-[30px] justify-center items-center w-[100%]">
@@ -173,13 +174,15 @@ const FrederiqueDetails = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1.5, delay: 0.2 }}
-          className="flex justify-between items-center"
+          className="flex items-center justify-between"
         >
           <div>
             {/* <h1 className="line-through opacity-55 leading-5 text-[20px]">
               {product.demoPrice}$
             </h1> */}
-            <h1 className="font-nunito text-[35px]">{product.price}$</h1>
+            <h1 className="font-nunito text-[35px] uppercase ">
+              {product.price}$
+            </h1>
             <h1 className="font-kanit text-[12px] uppercase">по курсу цб</h1>
           </div>
           <h1 className="text-[15px]">Ref: {product.rafcode}</h1>
@@ -393,7 +396,7 @@ const FrederiqueDetails = () => {
         </motion.h1>
         {/* similar products */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]  p-[5px]">
-          {products?.Frederique.filter(
+          {products?.Montblanc.filter(
             (item) =>
               item.categori === product.categori && item.id !== product.id
           ).map((watch) => (
@@ -441,7 +444,7 @@ const FrederiqueDetails = () => {
                     }}
                   >
                     <h1 className="text-[19px] leading-6 uppercase font-bold font-nunito ">
-                      {watch.brend}
+                      {watch.title}
                     </h1>
                     <h1 className=" text-[12px]">{watch.rafcode}</h1>
                   </motion.div>
@@ -455,7 +458,7 @@ const FrederiqueDetails = () => {
                       delay: 0.3,
                     }}
                   >
-                    {/* <h1 className="line-through leading-3 opacity-80 ">
+                    {/* <h1 className="leading-3 line-through opacity-80 ">
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">
@@ -491,4 +494,4 @@ const FrederiqueDetails = () => {
   );
 };
 
-export default FrederiqueDetails;
+export default MoncblancDetailes;

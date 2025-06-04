@@ -9,14 +9,9 @@ import MenuAll from "../App/MenuAll";
 
 const categories = [
   "All",
-  "Maestro",
-  "Parsifal",
-  "Freelancer",
-  "Toccata",
-  "Tango",
 ];
 
-const Raymond = () => {
+const Rado = () => {
   const { sendToTelegram } = useContext(TelegramContext);
   const { products, loading } = useContext(ProductContext);
 
@@ -26,10 +21,10 @@ const Raymond = () => {
   const [openFilter, setOpenFilter] = useState(false);
 
   if (loading) return <div>Ma'lumotlar yuklanmoqda...</div>;
-  if (!products?.Raymond || products.Raymond.length === 0)
+  if (!products?.Rado || products.Rado.length === 0)
     return <div>Maurice mahsulotlari topilmadi.</div>;
 
-  const filteredProducts = products?.Raymond?.filter((watch) => {
+  const filteredProducts = products?.Rado?.filter((watch) => {
     const productPrice = Number(watch.price) || 0;
     return (
       (activeCategory === "All" ||
@@ -99,7 +94,7 @@ const Raymond = () => {
       <div className="mt-[10px] mb-[85px] grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[8px] w-[97%] m-auto">
         {filteredProducts.map((watch) => (
           <div onClick={() => handleProductClick(watch)} key={watch.id}>
-            <Link to={`/raymond/${watch.id}`}>
+            <Link to={`/rado/${watch.id}`}>
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -149,9 +144,9 @@ const Raymond = () => {
                     {/* <h1 className="leading-3 line-through opacity-80">
                       {watch.demoPrice}$
                     </h1> */}
-                    {/* <h1 className="font-kanit text-[27px] uppercase ">
+                    <h1 className="font-kanit text-[27px] uppercase ">
                       {watch.price}$
-                    </h1> */}
+                    </h1>
                     <h1 className="font-kanit text-[12px] uppercase">
                       по курсу цб
                     </h1>
@@ -182,4 +177,4 @@ const Raymond = () => {
   );
 };
 
-export default Raymond;
+export default Rado;

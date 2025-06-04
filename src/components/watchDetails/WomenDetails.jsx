@@ -160,7 +160,7 @@ const WomensDetails = () => {
             <img
               src={product.mainImage}
               alt=""
-              className="md:h-[300px] h-[320px]"
+              className="md:h-[300px] h-[350px]"
             />
           </motion.div>
         </div>
@@ -170,11 +170,11 @@ const WomensDetails = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1.5, delay: 0.2 }}
-          className="flex justify-between items-center"
+          className="flex items-center justify-between"
         >
           <div>
             <h1 className="font-nunito text-[35px] uppercase">
-              {`${product.price - 100} `}$
+              {`${product.price}`}$
             </h1>
             <h1 className="font-kanit text-[12px] uppercase">по курсу цб</h1>
           </div>
@@ -450,7 +450,7 @@ const WomensDetails = () => {
                       delay: 0.3,
                     }}
                   >
-                    {/* <h1 className="line-through leading-3 opacity-80 ">
+                    {/* <h1 className="leading-3 line-through opacity-80 ">
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">

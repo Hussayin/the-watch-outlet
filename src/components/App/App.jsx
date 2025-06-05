@@ -30,6 +30,8 @@ import Rado from "../watchs/Rado";
 import RadoDetailes from "../watchDetails/Radodetails";
 import Montblanc from "../watchs/MontBlanc";
 import MoncblancDetailes from "../watchDetails/MontBlancDetails";
+import Omega from "../watchs/Omega";
+import OmegaDetails from "../watchDetails/OmegaDetails";
 
 const App = () => {
   return (
@@ -72,11 +74,14 @@ const App = () => {
           <Route path="/hamilton" element={<Hamilton />} />
           <Route path="/hamilton/:id" element={<HamiltonDetails />} />
           {/* Rado */}
-          <Route path="/rado" element={<Rado/>} /> 
-          <Route path="/rado/:id" element={<RadoDetailes/>} />
+          <Route path="/rado" element={<Rado />} />
+          <Route path="/rado/:id" element={<RadoDetailes />} />
           {/* MontBlanc */}
-          <Route path="/montblanc" element={<Montblanc/>} />
-          <Route path="/montblanc/:id" element={<MoncblancDetailes/>} />
+          <Route path="/montblanc" element={<Montblanc />} />
+          <Route path="/montblanc/:id" element={<MoncblancDetailes />} />
+          {/* MontBlanc */}
+          <Route path="/omega" element={<Omega />} />
+          <Route path="/omega/:id" element={<OmegaDetails />} />
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>

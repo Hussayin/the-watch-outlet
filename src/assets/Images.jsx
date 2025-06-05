@@ -19,4 +19,5 @@ export { default as raymondLogo } from "././raymond.webp";
 // export { default as ingersoll } from "./ingersollLogo";
 // 8  march
 
+export { default as omegaLogo } from "././omega-logo.png";
 export { default as march2 } from "././forWomens2.webp";

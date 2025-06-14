@@ -32,6 +32,9 @@ import Montblanc from "../watchs/MontBlanc";
 import MoncblancDetailes from "../watchDetails/MontBlancDetails";
 import Omega from "../watchs/Omega";
 import OmegaDetails from "../watchDetails/OmegaDetails";
+import OrientWatch from "../watchs/OrientWatches";
+import SeikoWatch from "../watchs/SeikoWatches";
+import CitizenWatch from "../watchs/CitizenWatches";
 
 const App = () => {
   return (
@@ -82,6 +85,12 @@ const App = () => {
           {/* MontBlanc */}
           <Route path="/omega" element={<Omega />} />
           <Route path="/omega/:id" element={<OmegaDetails />} />
+          {/* orient */}
+          <Route path="/orient" element={<OrientWatch />} />
+          {/* Seiko */}
+          <Route path="/seiko" element={<SeikoWatch />} />
+          {/* Citizen */}
+          <Route path="/citizen" element={<CitizenWatch />} />
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>

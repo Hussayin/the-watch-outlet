@@ -1318,7 +1318,7 @@ export const PopulorWatch = [
     title: "Omega",
     rafcode: "Omega Constalletion",
     brend: "Omega",
-    price: "3900",
+    price: "6400",
     mainImage:
       "https://citycar-base.netlify.app/Frederique/photo_2025-06-04_12-47-14-removebg-preview.webp",
   },
@@ -4413,6 +4413,21 @@ export const AllWatchs = {
       bracelet: "Нержавеющая сталь",
       toWater: "3 бар (30 м)",
     },
+  ],
+  Orient: [
+    {
+      id: 13.1,
+      link: "13.1",
+      logo: omegaLogo,
+      logoWidth: "w-[90px]",
+      categori: "De-Ville",
+      title: "Omega",
+      allTitle: "Omega Constalletion",
+      mainImage:
+        "https://citycar-base.netlify.app/Frederique/photo_2025-06-04_12-47-14-removebg-preview.webp",
+        price: "6400",
+    }
+    
   ],
   omega: [
     {

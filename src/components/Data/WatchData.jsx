@@ -1609,6 +1609,30 @@ export const watchBrends = [
     title: "Женский",
   },
   {
+    id: "14",
+    link: "/citizen",
+    image:
+      "https://www.citizenwatch-global.com/titaniumtechnology/assets/img/im-watch04.png",
+    title: "Citizen",
+    // object: "object-cover",
+  },
+  {
+    id: "15",
+    link: "/seiko",
+    image:
+      "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2023/02/02/11/42/SPB381J1/SPB381J1.png?mh=1200&mw=1200",
+    title: "Seiko",
+    // object: "object-cover",
+  },
+  {
+    id: "13",
+    link: "/orient",
+    image:
+      "https://mediaserver.goepson.com/ImConvServlet/imconv/42c3778b6544656a3620db69acfecb4051e455f9/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=RE-BX0006E",
+    title: "Orient",
+    object: "object-cover",
+  },
+  {
     id: "12",
     link: "/rado",
     image: "https://watch-base-work.netlify.app/watches/rado-R32502203.webp",
@@ -1669,6 +1693,557 @@ export const watchBrends = [
     image:
       "https://bekhruzwatch-data.netlify.app/hamilton/hamilton-RailRoad-h40656731__1_-removebg-preview.webp",
     title: "Hamilton",
+  },
+];
+
+export const orient = [
+  {
+    id: 15.28,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_9_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.27,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_8_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.26,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_7_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.25,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_6_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.24,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_5_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.23,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_4_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.22,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_3_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.21,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_2_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.19,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_25_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.18,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_24_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.17,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_23_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.16,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_23_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.15,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_22_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.14,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_21_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.13,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_20_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.12,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_1_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.11,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_19_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.9,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_18_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.8,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_17_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.7,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_16_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.6,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_15_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.5,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_14_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.4,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_13_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.3,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_12_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.2,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_11_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.1,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches/photo_10_2025-06-13_18-23-03.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+];
+
+export const seiko = [
+  {
+    id: 14.17,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_9_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.16,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_8_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.15,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_7_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.14,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_6_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.13,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_5_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.12,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_4_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.11,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_3_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.9,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_2_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.8,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_1_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.18,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_17_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.7,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_16_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.6,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_15_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.5,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_14_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.4,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_13_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.3,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_12_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.2,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_11_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 14.1,
+    mainImage:
+      "https://citycar-base.netlify.app/seiko-watch/photo_10_2025-06-13_18-11-14.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+];
+
+export const citizen = [
+  {
+    id: 13.25,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_9_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.24,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_8_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.23,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_7_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.22,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_6_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.21,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_5_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.19,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_4_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.17,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_3_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.16,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_23_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.15,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_22_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.14,
+    link: "/citizen/13.4",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_21_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.13,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_20_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.12,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_1_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.11,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_19_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.9,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_18_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.8,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_17_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.7,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_16_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.6,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_15_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.5,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_14_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.4,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_13_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.3,
+    link: "/citizen/13.3",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_12_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.2,
+    link: "/citizen/13.2",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_11_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 13.1,
+    link: "/citizen/13.1",
+    mainImage:
+      "https://citycar-base.netlify.app/low-price/photo_10_2025-06-13_17-27-44.webp",
+    price: "0",
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
   },
 ];
 

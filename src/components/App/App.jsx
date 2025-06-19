@@ -35,6 +35,7 @@ import OmegaDetails from "../watchDetails/OmegaDetails";
 import OrientWatch from "../watchs/OrientWatches";
 import SeikoWatch from "../watchs/SeikoWatches";
 import CitizenWatch from "../watchs/CitizenWatches";
+import CasioWatch from "../watchs/CasioWatches";
 
 const App = () => {
   return (
@@ -91,6 +92,8 @@ const App = () => {
           <Route path="/seiko" element={<SeikoWatch />} />
           {/* Citizen */}
           <Route path="/citizen" element={<CitizenWatch />} />
+          {/* Casio */}
+          <Route path="/casio" element={<CasioWatch />} />
         </Routes>
         {/* </HelmetProvider> */}
       </BrowserRouter>

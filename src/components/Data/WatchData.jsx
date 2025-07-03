@@ -11635,7 +11635,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-392RMG5B6",
       demoPrice: `1500`,
-      price: "3200",
+      price: "3300",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,

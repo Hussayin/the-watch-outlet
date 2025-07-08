@@ -159,11 +159,11 @@ const Tissot = () => {
                       delay: 0.3,
                     }}
                   >
-                    {/* <h1 className="line-through leading-3 opacity-80">
+                    {/* <h1 className="leading-3 line-through opacity-80">
                       {watch.demoPrice}$
                     </h1> */}
                     <h1 className="font-kanit text-[27px] uppercase ">
-                      {watch.price}$
+                      {watch.price + 50}$
                     </h1>
                     <h1 className="font-kanit text-[12px] uppercase">
                       по курсу цб

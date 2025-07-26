@@ -133,7 +133,7 @@ export default function CasioWatch() {
           <motion.div
             key={img.id}
             onClick={() => setSelectedImage(img)}
-            className={` dark:border-none flex items-center justify-center mb-[4px] dark:bg-[#f4f1f1] overflow-hidden transition-all duration-500 ${
+            className={` dark:border-none flex flex-col items-center justify-center mb-[4px] dark:bg-[#f4f1f1] overflow-hidden transition-all duration-500 ${
               isLoaded ? "blur-0 bg-transparent" : "blur-md bg-transparent "
             } `}
           >
@@ -143,6 +143,9 @@ export default function CasioWatch() {
               alt="image-product-car"
               className="h-[170px] w-[100%] object-cover border-[3px] border-[#515151] rounded-[10px] "
             />
+            <div>
+              <h1 className=" font-kanit">{img.price}$</h1>
+            </div>
           </motion.div>
         ))}
         <AnimatePresence>

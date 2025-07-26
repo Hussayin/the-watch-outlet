@@ -1709,7 +1709,7 @@ export const casio = [
     id: 16.1,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728608.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1717,7 +1717,7 @@ export const casio = [
     id: 16.2,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728609.webp",
-    price: "0",
+    price: 60,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1725,7 +1725,7 @@ export const casio = [
     id: 16.3,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728610.webp",
-    price: "0",
+    price: 60,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1733,7 +1733,7 @@ export const casio = [
     id: 16.4,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728611.webp",
-    price: "0",
+    price: 120,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1741,7 +1741,7 @@ export const casio = [
     id: 16.5,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728612.webp",
-    price: "0",
+    price: 120,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1749,7 +1749,7 @@ export const casio = [
     id: 16.6,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728613.webp",
-    price: "0",
+    price: 90,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1757,7 +1757,7 @@ export const casio = [
     id: 16.7,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728615.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1765,7 +1765,7 @@ export const casio = [
     id: 16.8,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728616.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1773,7 +1773,7 @@ export const casio = [
     id: 16.9,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728617.webp",
-    price: "0",
+    price: 150,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1781,7 +1781,7 @@ export const casio = [
     id: 16.11,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728618.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1789,7 +1789,7 @@ export const casio = [
     id: 16.12,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728619.webp",
-    price: "0",
+    price: 190,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1797,7 +1797,7 @@ export const casio = [
     id: 16.13,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728620.webp",
-    price: "0",
+    price: 110,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1805,7 +1805,7 @@ export const casio = [
     id: 16.14,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728621.webp",
-    price: "0",
+    price: 190,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1813,7 +1813,7 @@ export const casio = [
     id: 16.15,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728622.webp",
-    price: "0",
+    price: 170,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1821,7 +1821,7 @@ export const casio = [
     id: 16.16,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728623.webp",
-    price: "0",
+    price: 110,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1829,7 +1829,7 @@ export const casio = [
     id: 16.17,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728624.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1837,7 +1837,7 @@ export const casio = [
     id: 16.18,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728625.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1845,7 +1845,7 @@ export const casio = [
     id: 16.19,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728626.webp",
-    price: "0",
+    price: 120,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1853,7 +1853,7 @@ export const casio = [
     id: 16.21,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728627.webp",
-    price: "0",
+    price: 125,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1861,7 +1861,7 @@ export const casio = [
     id: 16.22,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728628.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1869,7 +1869,7 @@ export const casio = [
     id: 16.23,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728629.webp",
-    price: "0",
+    price: 110,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1877,7 +1877,7 @@ export const casio = [
     id: 16.24,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728630.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1885,7 +1885,7 @@ export const casio = [
     id: 16.25,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728631.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1893,7 +1893,7 @@ export const casio = [
     id: 16.26,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728632.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1901,7 +1901,7 @@ export const casio = [
     id: 16.27,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728633.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1909,7 +1909,7 @@ export const casio = [
     id: 16.28,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728634.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1917,7 +1917,7 @@ export const casio = [
     id: 16.29,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728635.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1925,7 +1925,7 @@ export const casio = [
     id: 16.31,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728636.webp",
-    price: "0",
+    price: 100,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1933,7 +1933,7 @@ export const casio = [
     id: 16.32,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728637.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1941,7 +1941,7 @@ export const casio = [
     id: 16.33,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728638.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1949,7 +1949,7 @@ export const casio = [
     id: 16.34,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728639.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1957,7 +1957,7 @@ export const casio = [
     id: 16.35,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728640.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1965,7 +1965,7 @@ export const casio = [
     id: 16.36,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5391198801873728641.webp",
-    price: "0",
+    price: 70,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1973,7 +1973,7 @@ export const casio = [
     id: 16.37,
     mainImage:
       "https://watch-base-work.netlify.app/casioWatches/5393225549696069971.webp",
-    price: "0",
+    price: 200,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },

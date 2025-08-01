@@ -1984,7 +1984,7 @@ export const orient = [
     id: 15.28,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_9_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 200,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -1992,7 +1992,7 @@ export const orient = [
     id: 15.27,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_8_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 650,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2000,7 +2000,7 @@ export const orient = [
     id: 15.26,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_7_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 300,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2008,7 +2008,7 @@ export const orient = [
     id: 15.25,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_6_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 350,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2016,7 +2016,7 @@ export const orient = [
     id: 15.24,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_5_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 500,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2024,7 +2024,7 @@ export const orient = [
     id: 15.23,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_4_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 300,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2032,7 +2032,7 @@ export const orient = [
     id: 15.22,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_3_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 300,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2040,7 +2040,7 @@ export const orient = [
     id: 15.21,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_2_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 650,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2048,7 +2048,7 @@ export const orient = [
     id: 15.19,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_25_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: 300,
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2056,7 +2056,7 @@ export const orient = [
     id: 15.18,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_24_2025-06-13_18-23-03.webp",
-    price: "0",
+    price: "",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },

@@ -276,7 +276,7 @@ export const OldWatches = [
     img: "https://bekhruzwatch-data.netlify.app/webp/20250315_173901.webp",
     title: "Rado Integral",
     brend: "Rado",
-    price: 1000,
+    price: 1300,
     diometr: "31 x 41 mm",
   },
   {

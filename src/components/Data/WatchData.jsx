@@ -2194,42 +2194,10 @@ export const orient = [
 
 export const seiko = [
   {
-    id: 14.24,
-    mainImage:
-      "https://watch-base-work.netlify.app/rolexOthers/photo_5402278580546827648_y.webp",
-    price: "0",
-    diameter: "39 mm",
-    mechanism: "Механический с автоподзаводом",
-  },
-  {
-    id: 14.23,
-    mainImage:
-      "https://watch-base-work.netlify.app/rolexOthers/photo_5402278580546827645_y.webp",
-    price: "0",
-    diameter: "39 mm",
-    mechanism: "Механический с автоподзаводом",
-  },
-  {
-    id: 14.22,
-    mainImage:
-      "https://watch-base-work.netlify.app/rolexOthers/photo_5402278580546827648_y.webp",
-    price: "0",
-    diameter: "39 mm",
-    mechanism: "Механический с автоподзаводом",
-  },
-  {
-    id: 14.21,
-    mainImage:
-      "https://watch-base-work.netlify.app/rolexOthers/photo_5402278580546827645_y.webp",
-    price: "0",
-    diameter: "39 mm",
-    mechanism: "Механический с автоподзаводом",
-  },
-  {
     id: 14.19,
     mainImage:
       "https://watch-base-work.netlify.app/rolexOthers/photo_5402278580546827648_y.webp",
-    price: "0",
+    price: "430",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2237,7 +2205,7 @@ export const seiko = [
     id: 14.18,
     mainImage:
       "https://watch-base-work.netlify.app/rolexOthers/photo_5402278580546827645_y.webp",
-    price: "0",
+    price: "340",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2245,7 +2213,7 @@ export const seiko = [
     id: 14.17,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_9_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "330",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2253,7 +2221,7 @@ export const seiko = [
     id: 14.16,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_8_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "330",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2261,7 +2229,7 @@ export const seiko = [
     id: 14.15,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_7_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "230",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2269,7 +2237,7 @@ export const seiko = [
     id: 14.14,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_6_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "230",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2277,7 +2245,7 @@ export const seiko = [
     id: 14.13,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_5_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "230",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2285,7 +2253,7 @@ export const seiko = [
     id: 14.12,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_4_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "250",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2293,7 +2261,7 @@ export const seiko = [
     id: 14.11,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_3_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "500",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2301,7 +2269,7 @@ export const seiko = [
     id: 14.9,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_2_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "220",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2309,7 +2277,7 @@ export const seiko = [
     id: 14.8,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_1_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "700",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2317,7 +2285,7 @@ export const seiko = [
     id: 14.18,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_17_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "440",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2325,7 +2293,7 @@ export const seiko = [
     id: 14.7,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_16_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "750",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2333,7 +2301,7 @@ export const seiko = [
     id: 14.6,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_15_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "700",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2341,7 +2309,7 @@ export const seiko = [
     id: 14.5,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_14_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "250",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2349,7 +2317,7 @@ export const seiko = [
     id: 14.4,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_13_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "250",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2357,7 +2325,7 @@ export const seiko = [
     id: 14.3,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_12_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "500",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2365,7 +2333,7 @@ export const seiko = [
     id: 14.2,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_11_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "220",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },
@@ -2373,7 +2341,7 @@ export const seiko = [
     id: 14.1,
     mainImage:
       "https://citycar-base.netlify.app/seiko-watch/photo_10_2025-06-13_18-11-14.webp",
-    price: "0",
+    price: "250",
     diameter: "39 mm",
     mechanism: "Механический с автоподзаводом",
   },

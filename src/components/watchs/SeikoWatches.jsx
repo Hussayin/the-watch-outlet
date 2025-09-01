@@ -133,7 +133,7 @@ export default function SeikoWatch() {
           <motion.div
             key={img.id}
             onClick={() => setSelectedImage(img)}
-            className={` dark:border-none flex items-center justify-center mb-[4px] dark:bg-[#f4f1f1] overflow-hidden transition-all duration-500 ${
+            className={` dark:border-none flex-col flex items-center justify-center mb-[4px] dark:bg-[#f4f1f1] overflow-hidden transition-all duration-500 ${
               isLoaded ? "blur-0 bg-transparent" : "blur-md bg-transparent "
             } `}
           >
@@ -143,6 +143,7 @@ export default function SeikoWatch() {
               alt="image-product-car"
               className="h-[170px] w-[100%] object-cover border-[3px] border-[#515151] rounded-[10px] "
             />
+            <h1>{img.price}$</h1>
           </motion.div>
         ))}
         <AnimatePresence>

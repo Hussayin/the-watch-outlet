@@ -1697,13 +1697,13 @@ export const watchBrends = [
       "https://bekhruzwatch-data.netlify.app/Raymond-Weil/raymond-weil-maestro-moon-phase-fronte-2837-STC-00659.webp",
     title: "Raymond",
   },
-  {
-    id: "9",
-    link: "/hamilton",
-    image:
-      "https://bekhruzwatch-data.netlify.app/hamilton/hamilton-RailRoad-h40656731__1_-removebg-preview.webp",
-    title: "Hamilton",
-  },
+  // {
+  //   id: "9",
+  //   link: "/hamilton",
+  //   image:
+  //     "https://bekhruzwatch-data.netlify.app/hamilton/hamilton-RailRoad-h40656731__1_-removebg-preview.webp",
+  //   title: "Hamilton",
+  // },
 ];
 
 export const casio = [

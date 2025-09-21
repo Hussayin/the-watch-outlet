@@ -120,7 +120,7 @@ export default function ImageGallery() {
               onClick={() => setSelectedImage(img)}
             />
             <div>
-              <h1 className=" text-[18px] font-nunito">{img.title}</h1>
+              {/* <h1 className=" text-[18px] font-nunito">{img.title}</h1> */}
               {/* price */}
               <h1 className=" leading-4 text-[17px] font-nunito text-white">
                 {img.price}$
@@ -136,55 +136,30 @@ export default function ImageGallery() {
         <AnimatePresence>
           {selectedImage && (
             <motion.div
-              className="fixed inset-0 bg-[#112544] z-[1111111111] flex items-start justify-center p-4"
+              className="fixed inset-0 bg-[#112544] z-[1111111111] flex items-center justify-center"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setSelectedImage(null)}
             >
               <motion.div
-                className="relative bg-[#0e1629] w-[100%]  justify-center py-[18px] px-[14px] pt-[20px] rounded-lg shadow-lg"
+                className="relative bg-[#0e1629] w-[99%]  justify-center p-2 rounded-lg shadow-lg"
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0.8 }}
                 onClick={(e) => e.stopPropagation()}
               >
                 <button
-                  className="absolute top-2 right-2 bg-gray-800 text-white p-1 rounded-full"
+                  className="absolute top-2 right-2 bg-gray-800 text-white rounded-full"
                   onClick={() => setSelectedImage(null)}
                 >
-                  <TiDelete size={29} />
+                  <TiDelete size={33} />
                 </button>
                 <img
                   src={selectedImage.img}
                   alt="Selected"
-                  className=" w-[95%] object-cover m-auto border-[#9a9494] border-[2px] h-[350px] rounded-lg"
+                  className=" w-[100%] object-cover m-auto border-[#9a9494] border-[2px] h-[500px] rounded-lg"
                 />
-                <h1 className="text-white text-[25px] font-nunito text-center mt-2">
-                  {selectedImage.title}
-                </h1>
-                {/* price */}
-                <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
-                  Цена: {selectedImage.price}$
-                </h1>
-                <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
-                  Диаметр: {selectedImage.diometr}
-                </h1>
-                <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
-                  Гарантия: 1 Года
-                </h1>
-                <h1 className=" mt-[10px] text-white text-[21px] font-nunito">
-                  Состояние: C пробегом
-                </h1>
-                <div className="w-[100%] mt-[15px] flex justify-center items-center ">
-                  <a
-                    href="https://t.me/Bekhruz777"
-                    target="_blank"
-                    className=" text-[20px] p-[5px] border-[2px]  bg-green-600 rounded-[10px] border-black w-[50%] text-center "
-                  >
-                    Kупить
-                  </a>
-                </div>
                 {/* Price and valuto calqulator */}
                 {/* <h1 className=" hidden text-black text-center mt-2">
                   {currency === "USD"

@@ -90,7 +90,7 @@ const Enter = () => {
       <Search />
       <Corusel />
       <MenuBrends />
-      <Populor />
+      {/* <Populor /> */}
       <MenuAll />
     </div>
   );

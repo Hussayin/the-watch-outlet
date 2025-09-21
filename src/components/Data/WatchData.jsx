@@ -2063,6 +2063,94 @@ export const casio = [
 
 export const orient = [
   {
+    id: 15.41,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5307889656240667953.webp",
+    price: 300,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.39,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5294457906231639071.webp",
+    price: 360,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.38,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5294457906231639066.webp",
+    price: 300,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.37,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5294457906231639060.webp",
+    price: 300,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.36,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5294457906231639056.webp",
+    price: 300,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.35,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5294138227520829576.webp",
+    price: 360,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.34,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5253774691808705870.webp",
+    price: 350,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.33,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5253644829177542223.webp",
+    price: 350,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.32,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5253644829177542222.webp",
+    price: 350,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.31,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5253570620732598635.webp",
+    price: 350,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
+    id: 15.29,
+    mainImage:
+      "https://citycar-base.netlify.app/orient-watches1/5237869663407438067.webp",
+    price: 370,
+    diameter: "39 mm",
+    mechanism: "Механический с автоподзаводом",
+  },
+  {
     id: 15.28,
     mainImage:
       "https://citycar-base.netlify.app/orient-watches/photo_9_2025-06-13_18-23-03.webp",

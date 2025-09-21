@@ -2721,7 +2721,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-220BSD3BD6",
       demoPrice: `1500`,
-      price: "2100",
+      price: "2300",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,
@@ -10753,7 +10753,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-310VD2NH2B",
       demoPrice: `1500`,
-      price: "2200",
+      price: "2600",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,
@@ -11313,7 +11313,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-220S5S6B",
       demoPrice: `1500`,
-      price: "2100",
+      price: "2000",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,
@@ -11565,7 +11565,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-285S5B6",
       demoPrice: `1500`,
-      price: "1200",
+      price: "1300",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,
@@ -11593,7 +11593,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-285V5B4",
       demoPrice: `1500`,
-      price: "1200",
+      price: "1300",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,
@@ -11705,7 +11705,7 @@ export const AllWatchs = {
       production: "Швейцария",
       rafcode: "FC-712MS4H6",
       demoPrice: `1500`,
-      price: "3000",
+      price: "3500",
       guarantee: "2 Года",
       status: "Новые",
       year: 2024,
@@ -16156,7 +16156,3 @@ export const AllWatchs = {
     },
   ],
 };
-
-// uzcart 7649
-// humo 8416
-//

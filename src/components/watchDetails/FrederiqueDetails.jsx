@@ -102,50 +102,49 @@ const FrederiqueDetails = () => {
       <div className="mt-[40px] dark:bg-white bg-[#0f192b] py-[30px] gap-[15px] h-[auto] justify-between border-gray-950 border-b-[3px] overflow-hidden relative rounded-b-[50px] border-solid md:p-[50px] p-[15px] flex flex-col">
         {/* Logo */}
         <div className="flex gap-[15px] pt-[10px] justify-between flex-col items-center">
-          <div className=" flex justify-between w-[100%]" >
-          <motion.img
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 1.5 }}
-            src={product.logo}
-            alt="logo-brend"
-            className="rounded-lg bg-white w-[100px] p-[7px] text-center object-cover"
-          />
+          <div className=" flex justify-between w-[100%]">
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ ease: "easeOut", duration: 1.5 }}
+              src={product.logo}
+              alt="logo-brend"
+              className="rounded-lg bg-white w-[100px] p-[7px] text-center object-cover"
+            />
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{
+                ease: "easeOut", // Easing funksiyasi
+                duration: 1, // Animatsiya davomiyligi
+                delay: 0.2,
+              }}
+              className=" flex flex-col gap-[10px] "
+            >
+              <button onClick={handleAdd} className="text-[33px] pr-[10px] ">
+                <MdAddShoppingCart />
+              </button>
+            </motion.div>
+          </div>
+
+          {/* Title */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{
               ease: "easeOut", // Easing funksiyasi
               duration: 1, // Animatsiya davomiyligi
               delay: 0.2,
             }}
-            className=" flex flex-col gap-[10px] "
+            className=" flex justify-center items-start gap-[10px] flex-col "
           >
-            <button onClick={handleAdd} className="text-[33px] pr-[10px] ">
-              <MdAddShoppingCart />
-            </button>
+            <h1 className="text-[22px] uppercase font-bold font-nunito leading-8">
+              {product.allTitle}
+            </h1>
+            <h1 className="text-[15px] uppercase opacity-75 ">
+              {product.production}
+            </h1>
           </motion.div>
-          </div>
-
-          {/* Title */}
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{
-            ease: "easeOut", // Easing funksiyasi
-            duration: 1, // Animatsiya davomiyligi
-            delay: 0.2,
-          }}
-          className=" flex justify-center items-start gap-[10px] flex-col "
-        >
-          <h1 className="text-[22px] uppercase font-bold font-nunito leading-8">
-            {product.allTitle}
-          </h1>
-          <h1 className="text-[15px] uppercase opacity-75 ">
-            {product.production}
-          </h1>
-        </motion.div>
-
         </div>
 
         {/* Images */}
@@ -204,9 +203,7 @@ const FrederiqueDetails = () => {
         >
           Больше информации
         </motion.h1>
-        {/* infos */}
-        <div className=" flex justify-center items-start gap-[10px] flex-col p-[10px] pt-[20px] ">
-          {/*  */}
+        {/* <div className=" flex justify-center items-start gap-[10px] flex-col p-[10px] pt-[20px] ">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -220,7 +217,6 @@ const FrederiqueDetails = () => {
             <h1>- Марка:</h1>
             <h1>{product.brend}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -234,7 +230,6 @@ const FrederiqueDetails = () => {
             <h1>- Модель:</h1>
             <h1>{product.allTitle}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -248,7 +243,6 @@ const FrederiqueDetails = () => {
             <h1>- Hомер:</h1>
             <h1>{product.rafcode}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -262,7 +256,6 @@ const FrederiqueDetails = () => {
             <h1>- Механизм:</h1>
             <h1>{product.mechanism}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -276,7 +269,6 @@ const FrederiqueDetails = () => {
             <h1>- Материал:</h1>
             <h1>{product.caseMaterial}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -290,21 +282,6 @@ const FrederiqueDetails = () => {
             <h1>- Ремешок:</h1>
             <h1>{product.bracelet}</h1>
           </motion.div>
-          {/*  */}
-          {/* <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              ease: "easeOut", // Easing funksiyasi
-              duration: 0.6, // Animatsiya davomiyligi
-              delay: 0.1,
-            }}
-            className=" text-[20px] flex gap-[13px] items-center "
-          >
-            <h1>- Год выпуска:</h1>
-            <h1>{product.year}</h1>
-          </motion.div> */}
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -318,7 +295,6 @@ const FrederiqueDetails = () => {
             <h1>- Состояние:</h1>
             <h1>{product.status}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -332,7 +308,6 @@ const FrederiqueDetails = () => {
             <h1>- Гарантия:</h1>
             <h1>{product.guarantee}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -346,7 +321,6 @@ const FrederiqueDetails = () => {
             <h1>- Водозащита:</h1>
             <h1>{product.toWater}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -360,7 +334,6 @@ const FrederiqueDetails = () => {
             <h1>- Стекло:</h1>
             <h1>{product.glass}</h1>
           </motion.div>
-          {/*  */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -374,7 +347,7 @@ const FrederiqueDetails = () => {
             <h1>- Диаметр:</h1>
             <h1>{product.diameter}</h1>
           </motion.div>
-        </div>
+        </div> */}
       </div>
 
       {/* similar */}

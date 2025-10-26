@@ -20,14 +20,14 @@ const MenuAll = () => {
         className="w-[100%] border-[1px] border-white rounded-[7px] py-[7px] "
         to="/"
       >
-        <h1>Топовые часы</h1>
+        <h1>Menu</h1>
       </NavLink>
       {/* All watches */}
       <NavLink
         to="/AllWatches"
         className="w-[100%] border-[1px] border-white rounded-[7px] py-[7px]"
       >
-        <h1>Б/y</h1>
+        <h1>Hошенные</h1>
       </NavLink>
       {/* basket */}
       <NavLink

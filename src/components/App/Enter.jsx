@@ -6,6 +6,7 @@ import MenuBrends from "../compos/MenuBrends";
 import Populor from "../compos/Populor";
 import MenuAll from "./MenuAll";
 import { Helmet } from "react-helmet"; // Helmetni import qilish
+import ServisNoWorking from "./ServisNoWorking";
 
 const Enter = () => {
   return (
@@ -86,12 +87,12 @@ const Enter = () => {
           })}
         </script>
       </Helmet>
-      <Navbar />
+      <ServisNoWorking />
+      {/* <Navbar />
       <Search />
       <Corusel />
       <MenuBrends />
-      {/* <Populor /> */}
-      <MenuAll />
+      <MenuAll /> */}
     </div>
   );
 };

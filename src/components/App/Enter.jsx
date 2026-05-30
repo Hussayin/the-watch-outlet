@@ -87,12 +87,12 @@ const Enter = () => {
           })}
         </script>
       </Helmet>
-      <ServisNoWorking />
-      {/* <Navbar />
+      {/* <ServisNoWorking /> */}
+      <Navbar />
       <Search />
       <Corusel />
       <MenuBrends />
-      <MenuAll /> */}
+      <MenuAll />
     </div>
   );
 };
